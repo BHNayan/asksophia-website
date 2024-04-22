@@ -17,12 +17,10 @@ const Box1Reverse = ({
       <div
         className={`flex h-full  w-full p-4 rounded-xl justify-center items-center `}
         style={{
-          backgroundImage: `url('${bgimgcode}')`,
-          backgroundSize: "cover", // Optional: adjust to your needs
-          backgroundPosition: "center", // Optional: adjust to your needs
+          backgroundColor: bgimgcode
         }}
       >
-        <img src={imglink} className="h-full w-full md:w-[70%]" />
+        <img src={imglink} className="h-full w-full md:w-[70%] rounded-3xl" />
       </div>
       <div className="flex justify-center items-center w-full h-[450px] md:h-[500px]">
         <div className="flex flex-col gap-4 md:gap-8 justify-center items-start p-2 w-full">

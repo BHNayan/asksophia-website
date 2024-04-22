@@ -1,49 +1,19 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { useState, useEffect } from "react";
 
 function VideoCarousel() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1
-        }
-      }
-    ]
-  };
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
     {
-      videoUrl: "https://www.youtube.com/embed/VIDEO_ID_1",
-      thumbnailUrl: "./images/box-img-1.png",
+      videoUrl: "https://www.youtube.com/embed/SG3L91imRBc",
+      thumbnailUrl: "./images/box-img-1.png", // Replace with actual thumbnail URL
       testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       reviewer: "John Doe",
       rating: 5
     },
     {
-      videoUrl: "https://www.youtube.com/embed/VIDEO_ID_2",
-      thumbnailUrl: "./images/box-img-1.png",
+      videoUrl: "https://www.youtube.com/embed/Qpw8mJf9Ny8",
+      thumbnailUrl: "./images/box-img-2.png", // Replace with actual thumbnail URL
       testimonial: "Vestibulum aliquet odio in purus tincidunt vehicula.",
       reviewer: "Jane Smith",
       rating: 5
@@ -51,39 +21,49 @@ function VideoCarousel() {
     // Add more slides as needed
   ];
 
+  const nextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1));
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1));
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000); // Adjust autoplay speed here (in milliseconds)
+    return () => clearInterval(interval);
+  }, [currentSlide]);
+
   return (
-    <Slider {...settings}>
-      {slides.map((slide, index) => (
-        <div key={index} className="flex">
-          <div className="w-1/2 relative">
-            <iframe
-              width="100%"
-              height="180"
-              src={slide.videoUrl}
-              title="Video thumbnail"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
-            <img src={slide.thumbnailUrl} alt="Thumbnail" className="absolute top-0 left-0 w-full h-full object-cover" />
-          </div>
-          <div className="w-1/2">
-            <div className="p-4">
-              <p>{slide.testimonial}</p>
-              <div className="flex items-center">
-                <p>{slide.reviewer}</p>
-                <div className="ml-2">
-                  {[...Array(slide.rating)].map((_, i) => (
-                    <span key={i} className="text-yellow-500">&#9733;</span>
-                  ))}
-                </div>
-              </div>
+    <div className="video-carousel">
+      <div className="video-slider">
+        {slides.map((slide, index) => (
+          <div key={index} className={index === currentSlide ? "slide active" : "slide"}>
+            <div className="thumbnail-container">
+              <img src={slide.thumbnailUrl} alt="Thumbnail" onClick={() => setCurrentSlide(index)} />
+              <button className="play-button" onClick={() => setCurrentSlide(index)}>
+                <i className="fa fa-play"></i>
+              </button>
             </div>
           </div>
-        </div>
-      ))}
-    </Slider>
+        ))}
+        <button className="prev" onClick={prevSlide}>&#10094;</button>
+        <button className="next" onClick={nextSlide}>&#10095;</button>
+      </div>
+      <div className="testimonial-slider">
+        {slides.map((slide, index) => (
+          <div key={index} className={index === currentSlide ? "testimonial active" : "testimonial"}>
+            <p>{slide.testimonial}</p>
+            <p>{slide.reviewer}</p>
+            {[...Array(slide.rating)].map((_, i) => (
+              <span key={i} className="text-yellow-500">&#9733;</span>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

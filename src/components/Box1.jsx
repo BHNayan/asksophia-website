@@ -43,7 +43,7 @@ const Box1 = ({
           backgroundPosition: "center", // Optional: adjust to your needs
         }}
       >
-        <img src={imglink} className="h-full w-full md:w-[70%]" />
+        <img src={imglink} className="h-full w-full md:w-[80%]" />
       </div>
     </div>
   );
