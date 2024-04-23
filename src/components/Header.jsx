@@ -13,21 +13,21 @@ const Navbar = () => {
   return (
     <>
       <Link to={"/"}>
-        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black lg:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black xl:text-white hover:text-primary">
           <a>Home</a>
         </li>
       </Link>
       <Link to={"/personalized"}>
-        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black lg:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black xl:text-white hover:text-primary">
           <a>Personalized</a>
         </li>
       </Link>
       <Link to={"workflows"}>
-        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black lg:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black xl:text-white hover:text-primary">
           <a>Workflows</a>
         </li>
       </Link>
-      <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black lg:text-white hover:text-primary">
+      <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black xl:text-white hover:text-primary">
         <details>
           <summary>Privacy & Support</summary>
           <ul className="p-2 w-full lg:w-[280px]">
@@ -44,11 +44,11 @@ const Navbar = () => {
         </details>
       </li>
       <Link to={"global-features"}>
-        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black lg:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black xl:text-white hover:text-primary">
           <a>Global Feauters</a>
         </li>
       </Link>
-      <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black lg:text-white hover:text-primary ">
+      <li className="hover:bg-white rounded-full font-semibold lg:text-[12px] xl:text-[14px] text-black xl:text-white hover:text-primary ">
         <details>
           <summary>My Life Hub</summary>
           <ul className="p-2 w-full lg:w-[280px]">
