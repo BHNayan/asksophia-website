@@ -17,8 +17,8 @@ const Box8 = ({
   Reviewposition,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row p-1 md:p-12 gap-14 md:gap-2 w-full overflow-hidden justify-center items-center">
-      <div className="flex justify-center items-center w-full h-full md:h-[500px]">
+    <div className="flex flex-col md:flex-row p-4  gap-14 md:gap-2 w-full  justify-center items-center">
+      <div className="flex justify-center items-center w-full h-full ">
         <div className="flex flex-col gap-4 md:gap-8 justify-start items-start p-2 w-full">
           <Button BTtext={ButText} />
           <div>

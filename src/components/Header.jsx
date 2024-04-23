@@ -13,21 +13,21 @@ const Navbar = () => {
   return (
     <>
       <Link to={"/"}>
-        <li className="hover:bg-white rounded-full hover:rounded-full text-black md:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full lg:text-[12px] lg:p-0 hover:rounded-full text-black md:text-white hover:text-primary">
           <a>Home</a>
         </li>
       </Link>
       <Link to={"/personalized"}>
-        <li className="hover:bg-white rounded-full text-black md:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full lg:text-[12px] text-black md:text-white hover:text-primary">
           <a>Personalized</a>
         </li>
       </Link>
       <Link to={"workflows"}>
-        <li className="hover:bg-white rounded-full text-black md:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full lg:text-[12px] text-black md:text-white hover:text-primary">
           <a>Workflows</a>
         </li>
       </Link>
-      <li className="hover:bg-white rounded-full text-black md:text-white hover:text-primary">
+      <li className="hover:bg-white rounded-full lg:text-[12px] text-black md:text-white hover:text-primary">
         <details>
           <summary>Privacy & Support</summary>
           <ul className="p-2 w-full lg:w-[280px]">
@@ -44,11 +44,11 @@ const Navbar = () => {
         </details>
       </li>
       <Link to={"global-features"}>
-        <li className="hover:bg-white rounded-full text-black md:text-white hover:text-primary">
+        <li className="hover:bg-white rounded-full lg:text-[12px] text-black md:text-white hover:text-primary">
           <a>Global Feauters</a>
         </li>
       </Link>
-      <li className="hover:bg-white rounded-full text-black md:text-white hover:text-primary ">
+      <li className="hover:bg-white rounded-full lg:text-[12px] text-black md:text-white hover:text-primary ">
         <details>
           <summary>My Life Hub</summary>
           <ul className="p-2 w-full lg:w-[280px]">
@@ -80,7 +80,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex flex-row bg-base-100 p-1 lg:px-20 lg:py-4  justify-between items-center w-full gap-0 ">
+      <div className="flex flex-row bg-base-100 p-2   justify-between items-center w-full gap-0 ">
         <div className=" flex justify-center items-center lg:hidden">
           <div className="dropdown px-4">
             <div
@@ -113,7 +113,7 @@ const Header = () => {
           />
         </div>
 
-        <div className=" lg:flex lg:justify-center lg:items-center w-full p-2 rounded-lg hidden  bg-gradient-to-r from-[#3639b4] to-[#191b83] ">
+        <div className=" lg:flex lg:justify-center lg:items-center w-full p-1 rounded-lg hidden  bg-gradient-to-r from-[#3639b4] to-[#191b83] ">
           <div className=" w-fit hidden lg:flex px-8 bg-white bg-opacity-10 backdrop-blur-lg rounded-full  justify-center items-center ">
             <ul className="menu menu-horizontal  ">
               <Navbar />

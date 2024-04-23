@@ -14,7 +14,7 @@ const GlobalFeauters = () => {
           Titletext="Global Features"
         />
       </div>
-      <div className="p-4">
+      <div className="p-2">
         <div>
           <Box8
             H1text="Chat with Sophia, Always by Your Side"
