@@ -34,7 +34,7 @@ const DailyNewsDigest = () => {
       </div>
 
       <div>
-        <Box5 imglink="./images/newsboximg.png" />
+        <Box5 imglink="./images/box-img-32.png" />
       </div>
 
       <div>

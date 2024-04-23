@@ -13,16 +13,9 @@ const Box1Reverse = ({
   bgimgcode,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row p-2 md:p-12 gap-8 md:gap-2 w-full overflow-x-hidden justify-center items-center">
-      <div
-        className={`flex h-full  w-full p-4 rounded-xl justify-center items-center `}
-        style={{
-          backgroundColor: bgimgcode
-        }}
-      >
-        <img src={imglink} className="h-full w-full md:w-[70%] rounded-3xl" />
-      </div>
-      <div className="flex justify-center items-center w-full h-[450px] md:h-[500px]">
+    <div className="flex flex-col md:flex-row-reverse p-2 md:p-12 gap-8 md:gap-2 w-full overflow-hidden justify-center items-center">
+      
+      <div className="flex justify-center items-center w-full  md:h-[500px]">
         <div className="flex flex-col gap-4 md:gap-8 justify-center items-start p-2 w-full">
           <Button BTtext={ButText} />
           <div>
@@ -42,6 +35,14 @@ const Box1Reverse = ({
             </div>
           </Link>
         </div>
+      </div>
+      <div
+        className={`flex h-full  w-full p-4 rounded-xl justify-center items-center `}
+        style={{
+          backgroundColor: bgimgcode
+        }}
+      >
+        <img src={imglink} className="h-full w-full md:w-[70%] rounded-3xl" />
       </div>
     </div>
   );

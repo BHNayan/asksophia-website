@@ -19,7 +19,7 @@ const Box7 = ({
         </h1>
       </div>
       <div>
-        <p className=" text-zinc-600 text-sm font-normal font-['Plus Jakarta Sans'] leading-snug">
+        <p className=" text-zinc-600 text-sm md:text-[16px] font-normal font-['Plus Jakarta Sans'] leading-[30px]">
           {PText}
         </p>
       </div>

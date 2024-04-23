@@ -13,8 +13,8 @@ const Box1 = ({
   bgimgcode,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row p-1 md:p-12 gap-8 md:gap-2 w-full overflow-x-hidden justify-center items-center">
-      <div className="flex justify-center items-center w-full h-[450px] md:h-[500px]">
+    <div className="flex flex-col md:flex-row p-1 md:p-12 gap-8 md:gap-2 w-full overflow-hidden justify-center items-center">
+      <div className="flex justify-center items-center w-full  md:h-[500px]">
         <div className="flex flex-col gap-4 md:gap-8 justify-center items-start p-2 w-full">
           <Button BTtext={ButText} />
           <div>

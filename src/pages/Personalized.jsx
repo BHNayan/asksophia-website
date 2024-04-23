@@ -97,7 +97,7 @@ const Personalized = () => {
           bgimgcode="#DBE1F9"
         />
       </div>
-      <div className="flex flex-col md:flex-row w-full gap-2 justify-around items-center m-2 p-2 md:p-8">
+      <div className="flex flex-col md:flex-row w-full gap-2 justify-around items-center  p-2 md:p-8">
         <Box7
           H1text="Connect, Share, Grow"
           PText="Welcome to the AskSophia community - your space to connect with fellow trailblazers. 
