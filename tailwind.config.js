@@ -16,6 +16,7 @@ export default {
       sans: ['"Inter"', "Mona Sans", "Plus Jakarta Sans"],
       "mona-sans": ["Mona Sans", "sans-serif"],
       "plus-jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
+      "Yrsa": ["Yrsa", "sans-serif"],
     },
   },
   plugins: [require("daisyui")],

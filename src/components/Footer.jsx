@@ -7,7 +7,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="p-4 bg-black flex flex-col gap-2">
+    <div className="p-4 bg-black flex flex-col gap-2 overflow-x-hidden">
       <div className="flex flex-row justify-around items-center gap-2 w-full px-4 lg:px-20 py-2 lg:py-4">
        {/** footer left Text */}
         <div className="w-full justify-center items-center">

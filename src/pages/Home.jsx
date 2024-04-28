@@ -3,18 +3,13 @@ import Button from "../components/Button";
 import Testimonials from "../components/Testimonials";
 import Faqs from "../components/Faqs";
 import WorkflowList from "../components/WorkflowList";
-import Bredcum from "../components/Bredcum";
+import HomeBox from "../components/HomeBox";
 
 const Home = () => {
   return (
     <>
       <div>
-        <Bredcum
-          ShowTitle={true}
-          ShowButton={true}
-          ShowBredcum={false}
-          Titletext="Sophia, Your AI Guide, for a Personalized Online Journey"
-        />
+        <HomeBox />
       </div>
 
       <div className="flex flex-col gap-2 p-2">
