@@ -64,10 +64,10 @@ const Faqs = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-2 p-2">
       <Button BTtext="FAQ'S" />
-      <h1 className="w-full md:w-[613px] text-center text-zinc-900 text-[24px] md:text-[44px] font-semibold font-['Mona Sans'] leading-[36px] md:leading-[56px] capitalize">
+      <h1 className="w-full md:w-[60%] text-center text-zinc-900 text-[24px] md:text-[44px] font-semibold font-['Mona Sans'] leading-[36px] md:leading-[56px] capitalize">
         Frequently ask Questions
       </h1>
-      <div className="p-2 md:pt-4 md:pb-4 md:pl-24 md:pr-24">
+      <div className="w-full md:w-[65%]  p-2 md:pt-4 md:pb-4 md:pl-24 md:pr-24">
         <Faq
           data={data}
           styles={{

@@ -9,7 +9,7 @@ const Workflows = () => {
         <Bredcum ShowTitle={true} ShowButton={false} ShowBredcum={true} Titletext="Workflows"/>
     </div>
     <div>
-      <WorkflowList />
+      <WorkflowList ptext="Streamlining Your Online Activities" />
     </div>
    </>
   )

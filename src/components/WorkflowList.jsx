@@ -149,14 +149,14 @@ const listworkflows = [
   },
 ];
 
-const WorkflowList = () => {
+const WorkflowList = (props) => {
   return (
     <div className="flex flex-col  items-center gap-2 p-2  mt-10 mb-10 ">
       <div className="flex justify-center items-center rounded-full m-2">
         <Button BTtext="SOPHIA’S 20 WORKFLOWS" />
       </div>
-      <h1 className="w-full md:w-[613px] text-center text-zinc-900 text-[24px] md:text-[44px] font-semibold font-['Mona Sans'] leading-[36px] md:leading-[56px] capitalize">
-        See How Others Are Benefiting from AskSophia
+      <h1 className="w-full md:w-[613px] text-center text-zinc-900 text-[24px] md:text-[44px] font-semibold font-Mona-Sans leading-[36px] md:leading-[56px] capitalize">
+        {props.ptext}
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-center items-center w-full border-black p-2 md:p-8 gap-4">
         {listworkflows.map((data) => {
@@ -173,7 +173,7 @@ const WorkflowList = () => {
               </Link>
               <Link to={data.wlink}>
                 <div>
-                  <h1 className="text-gray-950 text-base font-bold font-['Plus Jakarta Sans'] group-hover:text-white">
+                  <h1 className="text-gray-950 text-base font-bold font-Plus-Jakarta-Sans group-hover:text-white">
                     {data.name}
                   </h1>
                 </div>
