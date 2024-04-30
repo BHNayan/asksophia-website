@@ -47,7 +47,7 @@ const PricingBox = () => {
           <h2 className="text-2xl font-bold mb-4">Monthly Plan</h2>
           <div className="p-2">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-center items-center">
-              <div className="bg-white rounded-lg p-4 shadow-lg border">
+              <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <img
                   src="./images/pricebox-img1.png"
                   alt="img"
@@ -94,7 +94,7 @@ const PricingBox = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-white rounded-lg p-4 shadow-lg border">
+              <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <img
                   src="./images/pricebox-img2.png"
                   alt="img"
@@ -144,7 +144,7 @@ const PricingBox = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-primary rounded-lg p-4 shadow-lg border">
+              <div className="bg-primary rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <div className="flex flex-row justify-between items-center gap-2">
                   <img
                     src="./images/pricebox-img1.png"
@@ -201,7 +201,7 @@ const PricingBox = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-white rounded-lg p-4 shadow-lg border">
+              <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <img
                   src="./images/pricebox-img3.png"
                   alt="img"
@@ -259,7 +259,7 @@ const PricingBox = () => {
           <h2 className="text-2xl font-bold mb-4">Yearly Plan</h2>
           <div className="p-2">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-center items-center">
-              <div className="bg-white rounded-lg p-4 shadow-lg border">
+              <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <img
                   src="./images/pricebox-img1.png"
                   alt="img"
@@ -306,7 +306,7 @@ const PricingBox = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-white rounded-lg p-4 shadow-lg border">
+              <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <img
                   src="./images/pricebox-img2.png"
                   alt="img"
@@ -356,7 +356,7 @@ const PricingBox = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-primary rounded-lg p-4 shadow-lg border">
+              <div className="bg-primary rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <div className="flex flex-row justify-between items-center gap-2">
                   <img
                     src="./images/pricebox-img1.png"
@@ -413,7 +413,7 @@ const PricingBox = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-white rounded-lg p-4 shadow-lg border">
+              <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
                 <img
                   src="./images/pricebox-img3.png"
                   alt="img"

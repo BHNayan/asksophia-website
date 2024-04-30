@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
-const Bredcum = ({ShowButton, ShowTitle,ShowBredcum,Titletext}) => {
+const Bredcum = ({ ShowButton, ShowTitle, ShowBredcum, Titletext }) => {
   return (
     <div className="w-full  h-[220px] xl:h-[350px] p-4 bg-gradient-to-r from-[#3639b4] to-[#191b83] mb-2 xl:-mt-[20px] rounded-3xl flex flex-col justify-center items-center">
       {ShowButton && (

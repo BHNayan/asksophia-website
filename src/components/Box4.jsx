@@ -3,7 +3,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 import { Link } from "react-router-dom";
 
-const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink }) => {
+const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink,btlink }) => {
   return (
     <div
       className={`flex flex-col md:flex-row gap-4 md:gap-4 rounded-3xl`}
@@ -30,7 +30,7 @@ const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink }) => {
           </p>
         </div>
 
-        <Link to="/">
+        <Link to={btlink}>
           <div className="p-2 w-fit">
             <div className="flex flex-row justify-start whitespace-nowrap items-center px-8 py-2 gap-2 bg-white rounded-full cursor-pointer">
               <button className="text-black">{bttext}</button>
