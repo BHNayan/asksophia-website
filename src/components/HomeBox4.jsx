@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const HomeBox4 = () => {
     return (
-        <div className="w-full flex flex-col justify-center items-center rounded-3xl p-4 pb-0 gap-4 bg-[#20183C]">
+        <div className="w-full flex flex-col justify-center items-center rounded-3xl p-4 pb-1 gap-4 bg-[#20183C]">
           <div className="p-2">
             <Button BTtext="Dashboard" />
           </div>
@@ -17,7 +17,7 @@ const HomeBox4 = () => {
             <img
               src="./images/box10-img4.png"
               alt="img"
-              className=" h-full w-full"
+              className="h-full w-full"
             />
           </div>
     

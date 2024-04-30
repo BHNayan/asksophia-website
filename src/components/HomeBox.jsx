@@ -208,7 +208,7 @@ const HomeBox = () => {
           </button>
         </div>
         <div className="w-full  flex justify-center items-center">
-          <img src="./images/bg2-img.png" className="w-full object-cover" />
+          <img src="./images/bg2-img.png" className="w-full md:w-[80%] " />
         </div>
       </div>
 

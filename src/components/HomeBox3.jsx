@@ -14,11 +14,11 @@ const HomeBox3 = () => {
           Enhancing Teamwork & Family<br></br> Coordination
         </p>
       </div>
-      <div>
+      <div className="p-2">
         <img
           src="./images/box10-img1.png"
           alt="img"
-          className="md:h-[400px] h-full w-full"
+          className="h-full w-full p-2"
         />
       </div>
 

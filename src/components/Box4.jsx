@@ -40,7 +40,7 @@ const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink }) => {
         </Link>
       </div>
       <div className="flex justify-end items-end w-full">
-        <img src={imglink} alt="image" className="h-full w-full" />
+        <img src={imglink} alt="image" className="h-full w-full md:w-[80%] object-cover" />
       </div>
     </div>
   );
