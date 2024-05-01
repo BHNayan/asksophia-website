@@ -171,16 +171,16 @@ const HomeBox = () => {
         </div>
         <div className="w-full  flex-col justify-start items-center gap-[9px] inline-flex">
           <div className="w-full  text-center">
-            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-bold font-['Mona Sans'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[74px]">
+            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-bold font-['Mona Sans'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[70px]">
               Sophia, Your AI Guide, for a<br></br>
             </span>
-            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-semibold italic font-['Canela Trial'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[74px] tracking-widest">
+            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-semibold italic font-['Canela Trial'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[70px] tracking-widest">
               Personalized
             </span>
-            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-bold font-['Mona Sans'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[74px]">
+            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-bold font-['Mona Sans'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[70px]">
               {" "}
             </span>
-            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-bold font-['Mona Sans'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[74px]">
+            <span className="text-white text-[20px] sm:text-[25px] md:text-[40px] lg:text-[40px] xl:text-[45px] font-bold font-['Mona Sans'] leading-[24px] md:leading-[35px] lg:leading-[45px] xl:leading-[70px]">
               Online Journey
             </span>
           </div>
