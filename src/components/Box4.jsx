@@ -20,7 +20,7 @@ const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink,btlink }) => 
           </h3>
         </div>
         <div className="p-2">
-          <h1 className=" text-white w-full text-[35px] font-bold font-['Mona Sans'] leading-[40px]">
+          <h1 className=" text-white w-full text-[30px] font-bold font-['Mona Sans'] leading-[40px]">
             {headingText}
           </h1>
         </div>
@@ -40,7 +40,7 @@ const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink,btlink }) => 
         </Link>
       </div>
       <div className="flex justify-end items-end w-full">
-        <img src={imglink} alt="image" className="h-full w-full md:w-[80%] object-cover" />
+        <img src={imglink} alt="image" className="h-full w-full md:w-[80%] object-cover rounded-xl" />
       </div>
     </div>
   );

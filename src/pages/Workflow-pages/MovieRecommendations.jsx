@@ -72,6 +72,16 @@ const MovieRecommendations = () => {
             Box3BtText="Sign Up for Early Access"
           />
         </div>
+        <div className="p-2 md:p-10">
+          <Box4
+            smheadingText=""
+            headingText="Ready to transform how you discover movies?"
+            ptext="Let AskSophia guide you to your next cinematic treasure. 
+            Sign up now and dive into a world of personalized movie recommendations that speak directly to your heart."
+            bttext="Sign Up for Early Access "
+            imglink="images/box-img-45.png"
+          />
+        </div>
 
         <div>
           <Testimonials />

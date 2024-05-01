@@ -30,15 +30,21 @@ const Navbar = ({ closeMenu }) => {
         <details>
           <summary>Privacy & Support</summary>
           <ul className="p-2 w-full lg:w-[280px]">
+          <Link to={"support-help"}>
             <li className="hover:bg-white rounded-full list-none font-semibold lg:text-[12px] xl:text-[12px] text-black  hover:text-primary">
               <a onClick={closeMenu}>Support & Help</a>
             </li>
+            </Link>
+            <Link to={"user-data-privacy"}>
             <li className="hover:bg-white rounded-full list-none font-semibold lg:text-[12px] xl:text-[12px] text-black hover:text-primary">
               <a onClick={closeMenu}>User Data Privacy</a>
             </li>
+            </Link>
+            <Link to={"full-privacy-control"}>
             <li className="hover:bg-white rounded-full list-none font-semibold lg:text-[12px] xl:text-[12px] text-black hover:text-primary">
               <a onClick={closeMenu}>Full Privacy Control</a>
             </li>
+            </Link>
           </ul>
         </details>
       </li>
@@ -47,18 +53,26 @@ const Navbar = ({ closeMenu }) => {
         <details>
           <summary>My Life Hub</summary>
           <ul className="p-2 w-full lg:w-[280px]">
+          <Link to={"askSophia-community"}> 
             <li className="hover:bg-white hover:text-primary list-none font-semibold lg:text-[12px] xl:text-[12px]  text-black rounded-full ">
-              <a onClick={closeMenu}>Community</a>
+              <a onClick={closeMenu}>Asksophia Community</a>
             </li>
+            </Link>
+            <Link to={"team-family-sharing"}>
             <li className="hover:bg-white rounded-full list-none font-semibold lg:text-[12px] xl:text-[12px] text-black hover:text-primary ">
               <a onClick={closeMenu}>Team & Family Sharing</a>
             </li>
+            </Link>
+            <Link to={"user-analytics-dashboard"}> 
             <li className="hover:bg-white rounded-full list-none font-semibold lg:text-[12px] xl:text-[12px] text-black hover:text-primary ">
               <a onClick={closeMenu}>User Analytics Dashboard</a>
             </li>
+            </Link>
+            <Link to={"your-lifestyle-manager-chatbot"}> 
             <li className="hover:bg-white rounded-full list-none font-semibold lg:text-[12px] xl:text-[12px] text-black hover:text-primary ">
               <a onClick={closeMenu}>Your Lifestyle Manager Chatbot</a>
             </li>
+            </Link>
           </ul>
         </details>
       </li>

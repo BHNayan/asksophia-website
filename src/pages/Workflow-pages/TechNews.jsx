@@ -34,9 +34,7 @@ const TechNews = () => {
         <div>
           <Box5 imglink="./images/box-img-17.png" />
         </div>
-        <div>
-          <VideoCarousel />
-        </div>
+
         <div className="p-2 md:p-10">
           <Box4
             smheadingText="Join the AskSophia community"

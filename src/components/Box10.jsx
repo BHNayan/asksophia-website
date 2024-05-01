@@ -20,7 +20,7 @@ const Box10 = ({
 }) => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-start items-start gap-10 p-4 h-auto">
+      <div className="flex flex-col md:flex-row justify-start items-start gap-10 p-2 md:p-4 h-auto">
         <div className="w-full md:w-[65%] flex flex-col justify-start items-start gap-2 h-full ">
           <div className="bg-[#E0E7FF] w-full rounded-2xl">
             <div className="flex flex-col justify-start items-start gap-4 p-4">

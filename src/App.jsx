@@ -30,8 +30,13 @@ import FactoftheDay from "./pages/Workflow-pages/FactoftheDay";
 import MoneySavingTips from "./pages/Workflow-pages/MoneySavingTips";
 import RelaxationGuide from "./pages/Workflow-pages/RelaxationGuide";
 import TechNews from "./pages/Workflow-pages/TechNews";
-
-
+import SupportHelp from "./pages/PrivacySupport-pages/SupportHelp";
+import UserDataPrivacy from "./pages/PrivacySupport-pages/UserDataPrivacy";
+import FullPrivacyControl from "./pages/PrivacySupport-pages/FullPrivacyControl";
+import AskSophiaCommunity from "./pages/My-Life-Hub-pages/AskSophiaCommunity";
+import TeamFamilySharing from "./pages/My-Life-Hub-pages/TeamFamilySharing";
+import UserAnalyticsDashboard from "./pages/My-Life-Hub-pages/UserAnalyticsDashboard";
+import YourLifestyleManagerChatbot from "./pages/My-Life-Hub-pages/YourLifestyleManagerChatbot";
 
 function App() {
   return (
@@ -44,28 +49,49 @@ function App() {
             <Route path="personalized" element={<Personalized />} />
             <Route path="global-features" element={<GlobalFeauters />} />
             <Route path="workflows" element={<Workflows />} />
-            <Route path="daily-news-digest" element={<DailyNewsDigest/>} />   
-            <Route path="weather-update" element={<WeatherUpdate/>} />
-            <Route path="search-assistant" element={<SearchAssistant/>} />        
-            <Route path="social-media-recap" element={<SocialMediaRecap/>} />    
-            <Route path="online-shopping" element={<OnlineShopping/>} />   
-            <Route path="recipe-finder" element={<RecipeFinder/>} />   
-            <Route path="fitness-routine" element={<FitnessRoutine />} />  
-            <Route path="local-events" element={<LocalEvents/>} />  
-            <Route path="recommended-movies" element={<MovieRecommendations/>} />  
-            <Route path="recommended-books" element={<BookRecommendations/>} />  
-            <Route path="podcast-discovery" element={<PodcastDiscovery/>} />  
-            <Route path="music-discovery" element={<MusicDiscovery/>} />  
-            <Route path="game-suggestions" element={<GameSuggestions/>} />  
-            <Route path="to-do-list" element={<ToDoList/>} />  
-            <Route path="language-learning" element={<LanguageLearning/>} />  
-            <Route path="travel-planning" element={<TravelPlanner/>} />  
-            <Route path="fact-of-the-day" element={<FactoftheDay/>} />  
-            <Route path="money-saving-tips" element={<MoneySavingTips/>} />  
-            <Route path="relaxation-techniques" element={<RelaxationGuide/>} />  
-            <Route path="tech-news" element={<TechNews/>} />  
+            <Route path="daily-news-digest" element={<DailyNewsDigest />} />
+            <Route path="weather-update" element={<WeatherUpdate />} />
+            <Route path="search-assistant" element={<SearchAssistant />} />
+            <Route path="social-media-recap" element={<SocialMediaRecap />} />
+            <Route path="online-shopping" element={<OnlineShopping />} />
+            <Route path="recipe-finder" element={<RecipeFinder />} />
+            <Route path="fitness-routine" element={<FitnessRoutine />} />
+            <Route path="local-events" element={<LocalEvents />} />
+            <Route
+              path="recommended-movies"
+              element={<MovieRecommendations />}
+            />
+            <Route path="recommended-books" element={<BookRecommendations />} />
+            <Route path="podcast-discovery" element={<PodcastDiscovery />} />
+            <Route path="music-discovery" element={<MusicDiscovery />} />
+            <Route path="game-suggestions" element={<GameSuggestions />} />
+            <Route path="to-do-list" element={<ToDoList />} />
+            <Route path="language-learning" element={<LanguageLearning />} />
+            <Route path="travel-planning" element={<TravelPlanner />} />
+            <Route path="fact-of-the-day" element={<FactoftheDay />} />
+            <Route path="money-saving-tips" element={<MoneySavingTips />} />
+            <Route path="relaxation-techniques" element={<RelaxationGuide />} />
+            <Route path="tech-news" element={<TechNews />} />
+            <Route path="support-help" element={<SupportHelp />} />
+            <Route path="user-data-privacy" element={<UserDataPrivacy />} />
+            <Route
+              path="full-privacy-control"
+              element={<FullPrivacyControl />}
+            />
 
-            
+            <Route
+              path="askSophia-community"
+              element={<AskSophiaCommunity />}
+            />
+            <Route path="team-family-sharing" element={<TeamFamilySharing />} />
+            <Route
+              path="user-analytics-dashboard"
+              element={<UserAnalyticsDashboard />}
+            />
+            <Route
+              path="your-lifestyle-manager-chatbot"
+              element={<YourLifestyleManagerChatbot />}
+            />
           </Route>
         </Routes>
       </Router>

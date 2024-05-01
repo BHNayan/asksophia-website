@@ -14,11 +14,11 @@ const Box1 = ({
 }) => {
   return (
     <div className="flex flex-col md:flex-row p-2 md:p-8 gap-8 md:gap-2 w-full overflow-hidden justify-center items-center">
-      <div className="flex justify-center items-center w-full  md:h-[500px]">
+      <div className="flex justify-center items-center w-full  ">
         <div className="flex flex-col gap-4 md:gap-8 justify-center items-start p-2 w-full">
           <Button BTtext={ButText} />
           <div>
-            <h1 className="w-full lg:w-[80%] text-zinc-900 text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px]">
+            <h1 className="w-full lg:w-[80%] text-zinc-900 text-[30px] xl:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px]">
               {H1text}
             </h1>
           </div>
