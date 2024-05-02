@@ -8,6 +8,7 @@ import img from "/images/box-img-21.png";
 import Box1Reverse from "../components/Box1Reverse";
 import Box7 from "../components/Box7";
 import Box4 from "../components/Box4";
+import Box6Reverse from "../components/Box6Reverse";
 
 const Personalized = () => {
   return (
@@ -71,7 +72,7 @@ const Personalized = () => {
           />
         </div>
         <div className="w-full rounded-3xl shadow-lg ">
-          <Box6
+          <Box6Reverse
             H1text="Discovering Your Digital Persona"
             ButText="Step 2"
             PText="Imagine an app that gets you. Our quick, interactive quiz effortlessly uncovers your digital persona - 

@@ -35,15 +35,16 @@ const Box1 = ({
           </Link>
         </div>
       </div>
-      <div
-        className={`flex h-full  w-full p-4 rounded-xl justify-center items-center `}
-        style={{
-          backgroundImage: `url('${ bgimgcode}')`,
-          backgroundSize: "cover", // Optional: adjust to your needs
-          backgroundPosition: "center", // Optional: adjust to your needs
-        }}
-      >
-        <img src={imglink} className="h-full w-full md:w-[80%]" />
+      <div className="flex h-full  w-full p-4 rounded-xl justify-center items-center">
+        <img
+          src={imglink}
+          className={`h-full w-full md:w-[80%] p-4 `}
+          style={{
+            backgroundImage: `url('${bgimgcode}')`,
+            backgroundSize: "cover", // Optional: adjust to your needs
+            backgroundPosition: "center", // Optional: adjust to your needs
+          }}
+        />
       </div>
     </div>
   );

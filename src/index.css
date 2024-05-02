@@ -6,34 +6,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.gradient-border {
+#root{
   background-color: white;
-  max-width: 95%;
-  padding: 1rem;
-  position: relative;
-  color: #18181b;
-  border-radius: 50px;
-  font-weight: bold;
-  font-family: "Plus Jakarta Sans";
-}
-
-.gradient-border:before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  border-radius: 50px;
-  background: linear-gradient(
-    90deg,
-    rgba(68, 176, 237, 1) 33%,
-    rgba(224, 103, 243, 1) 66%,
-    rgba(255, 161, 73, 1) 100%
-  );
 }
 
 .slick-current {

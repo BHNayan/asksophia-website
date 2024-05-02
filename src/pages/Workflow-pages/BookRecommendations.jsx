@@ -32,7 +32,6 @@ const BookRecommendations = () => {
           />
         </div>
 
-
         <div className="flex flex-col gap-4 p-2">
           <div className="flex flex-col justify-center items-center p-2 gap-4">
             <div>
@@ -40,7 +39,7 @@ const BookRecommendations = () => {
             </div>
             <div>
               <h1 className="text-center text-zinc-900 text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[33px] md:leading-[53px]">
-              AskSophia's Book Picks: Explore <br></br>literature's depths
+                AskSophia's Book Picks: Explore <br></br>literature's depths
               </h1>
             </div>
           </div>
@@ -63,15 +62,7 @@ const BookRecommendations = () => {
             Box3BtText="Sign Up for Early Access"
           />
         </div>
-        <div className="p-2 md:p-10">
-          <Box4
-            smheadingText=""
-            headingText="Ready to uncover the podcasts that will inspire, educate, and entertain you?"
-            ptext="Sign up for AskSophia now and let us introduce you to your next audio obsession. Your perfect podcast match awaits!"
-            bttext="Sign Up for Early Access "
-            imglink="images/box-img-49.png"
-          />
-        </div>
+
         <div>
           <Box4
             smheadingText=""
@@ -90,6 +81,6 @@ const BookRecommendations = () => {
       </div>
     </>
   );
-}
+};
 
-export default BookRecommendations
+export default BookRecommendations;
