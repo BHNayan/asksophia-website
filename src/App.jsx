@@ -37,6 +37,7 @@ import AskSophiaCommunity from "./pages/My-Life-Hub-pages/AskSophiaCommunity";
 import TeamFamilySharing from "./pages/My-Life-Hub-pages/TeamFamilySharing";
 import UserAnalyticsDashboard from "./pages/My-Life-Hub-pages/UserAnalyticsDashboard";
 import YourLifestyleManagerChatbot from "./pages/My-Life-Hub-pages/YourLifestyleManagerChatbot";
+import Chat from "./pages/ChatPages/Chat";
 
 function App() {
   return (
@@ -91,6 +92,11 @@ function App() {
             <Route
               path="your-lifestyle-manager-chatbot"
               element={<YourLifestyleManagerChatbot />}
+            />
+
+            <Route
+              path="chat"
+              element={<Chat />}
             />
           </Route>
         </Routes>

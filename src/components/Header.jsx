@@ -94,7 +94,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex flex-row bg-base-100 justify-between items-center w-full">
+      <div className="flex flex-row bg-white justify-between items-center w-full">
         <div className="flex justify-center items-center xl:hidden">
           <div className="dropdown  px-4" ref={menuRef}>
             <div
@@ -126,9 +126,9 @@ const Header = () => {
                     />
                   </div>
 
-                  <div className="flex flex-col gap-8">
-                    <div className="p-2">
-                      <ul className="menu menu-md  bg-base-100 p-2  w-[90%]  ">
+                  <div className="flex flex-col gap-8 bg-white">
+                    <div className="p-2 bg-white">
+                      <ul className="menu menu-md  bg-white p-2  w-[90%]  ">
                         <Navbar closeMenu={closeMenu} />
                       </ul>
                     </div>
