@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="p-4 bg-black flex flex-col gap-2 overflow-x-hidden">
       <div className="flex flex-row justify-around items-center gap-2 w-full px-4 lg:px-20 py-2 lg:py-4">
-       {/** footer left Text */}
+        {/** footer left Text */}
         <div className="w-full justify-center items-center">
           <div className="w-full lg:w-[650px] gap-4">
             <span className="text-yellow-300 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Mona Sans'] capitalize leading-[50px] lg:leading-[81px]">
@@ -32,7 +32,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
-         {/** footer Right Logo */}
+        {/** footer Right Logo */}
         <div className="w-full flex justify-end items-center">
           <img
             src="./images/footer-right-img.png"
@@ -43,25 +43,30 @@ const Footer = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-around items-center gap-2 p-2 text-white">
         {/** footer Logo */}
-        <div className="flex flex-row justify-center items-center gap-4 p-2">
-          <img
-            src="./images/asksophia-logo-white.png"
-            alt="Asksophia-footer logo"
-            className=" h-[40px] md:w-[150px] md:h-[50px]"
-          />
-        </div>
+        <Link to="/">
+          <div className="flex flex-row justify-center items-center gap-4 p-2">
+            <img
+              src="./images/asksophia-logo-white.png"
+              alt="Asksophia-footer logo"
+              className=" h-[40px] md:w-[150px] md:h-[50px]"
+            />
+          </div>
+        </Link>
         {/** footer menu */}
-        <div className="flex flex-row justify-center items-center gap-4 p-2">
-          <nav className="px-20 py-2 lg:py-3 bg-white bg-opacity-10 rounded-full border border-white border-opacity-5 justify-center items-center inline-flex whitespace-nowrap">
+        <div className="flex flex-row justify-center items-center gap-2 p-2">
+          <nav className="p-2 lg:p-3 bg-white bg-opacity-10 rounded-full border border-white border-opacity-5 justify-center items-center inline-flex whitespace-nowrap">
             <ul className="flex flex-row gap-4 justify-center items-center ">
-              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans']">
+              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans'] hover:text-primary">
                 <Link to="/">Home</Link>
               </li>
-              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans']">
-                <Link to="/blogs">Workflows</Link>
+              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans'] hover:text-primary">
+                <Link to="/workflows">Workflows</Link>
               </li>
-              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans']">
-                <Link to="/contact">Global Features</Link>
+              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans'] hover:text-primary">
+                <Link to="/global-features">Global Features</Link>
+              </li>
+              <li className="text-slate-100 text-[13px] lg:text-sm font-medium font-['Plus Jakarta Sans'] hover:text-primary">
+                <Link to="/personalized">Personalized</Link>
               </li>
             </ul>
           </nav>
@@ -70,16 +75,28 @@ const Footer = () => {
         {/** footer social icon */}
         <div className="flex flex-row justify-center items-center gap-4 p-2">
           <div className="flex w-[40px] h-[40px] md:w-[50px] md:h-[50px] bg-white bg-opacity-10 rounded-full border border-white border-opacity-5 justify-center items-center cursor-pointer">
-            <FaRegEnvelope className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            <a
+              href="mailto:asksophia@thejooltgroup.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaRegEnvelope className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            </a>
           </div>
           <div className="flex w-[40px] h-[40px] md:w-[50px] md:h-[50px] bg-white bg-opacity-10 rounded-full border border-white border-opacity-5 justify-center items-center cursor-pointer">
-            <FaFacebookF className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            <Link to="https://www.facebook.com/meetasksophia?mibextid=ZbWKwL">
+              <FaFacebookF className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            </Link>
           </div>
           <div className="flex w-[40px] h-[40px] md:w-[50px] md:h-[50px] bg-white bg-opacity-10 rounded-full border border-white border-opacity-5 justify-center items-center cursor-pointer">
-            <FaInstagram className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            <Link to="https://www.instagram.com/meetasksophia?igsh=MTUydDRmZHl3cDNuMA==">
+              <FaInstagram className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            </Link>
           </div>
           <div className="flex w-[40px] h-[40px] md:w-[50px] md:h-[50px] bg-white bg-opacity-10 rounded-full border border-white border-opacity-5 justify-center items-center cursor-pointer">
-            <FaTiktok className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            <Link to="https://www.tiktok.com/@meetasksophia">
+              <FaTiktok className="w-[20px] h-[20px] md:w-[22px] md:h-[22px]" />
+            </Link>
           </div>
         </div>
       </div>

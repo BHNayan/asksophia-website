@@ -23,9 +23,10 @@ const UserDataPrivacy = () => {
           <Box1
             H1text="Empowering You with Transparency and Control Over Your Data"
             ButText="Your Privacy, Our Priority"
-            PText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. Nullam ac elit ac elit pharetra semper suscipit vitae sapien. Maecenas in vestibulum massa, et vulputate purus. Nullam libero lorem, tincidunt eu enim sodales, hendrerit iaculis turpis. 
-                Duis condimentum volutpat nunc, eget convallis dui scelerisque at. Vestibulum elementum ex sit amet nibh imperdiet,"
-            But2Link="/chat"
+            PText="Take control of your digital footprint with AskSophia. 
+            Explore our privacy features and customize your settings for a secure, 
+            personalized experience. Your data, your rules"
+            But2Link="/"
             But2Text="Sign Up for Early Access"
             imglink={img}
             bgimgcode="/images/box1-bg-img.png"
@@ -34,24 +35,21 @@ const UserDataPrivacy = () => {
         <div className="flex flex-col md:flex-row p-4 gap-4">
           <Box3
             HeadingText="Protected Shield"
-            PText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. 
-            Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. "
+            PText="A graphic symbolizing the strong protection AskSophia offers for your data"
             imglink="/images/internet-security.png"
             bgcolorcode="#E0E7FF"
           />
           <Box3
             HeadingText="Data Protective"
-            PText=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. 
-            Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. "
+            PText=" A mock-up demonstrating how users can easily adjust their privacy settings within AskSophia, highlighting simplicity and control "
             imglink="/images/data-analytics.png"
-            bgcolorcode="#ECFCCBF"
+            bgcolorcode="#ECFCCB"
           />
           <Box3
             HeadingText="Network"
-            PText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. 
-            Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. "
+            PText="An infographic showing how data is processed, used, and protected, emphasizing transparency "
             imglink="/images/network.png"
-            bgcolorcode="#ECFCCB"
+            bgcolorcode="#D1FAE5"
           />
         </div>
 

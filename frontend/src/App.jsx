@@ -39,9 +39,11 @@ import UserAnalyticsDashboard from "./pages/My-Life-Hub-pages/UserAnalyticsDashb
 import YourLifestyleManagerChatbot from "./pages/My-Life-Hub-pages/YourLifestyleManagerChatbot";
 import Chat from "./pages/ChatPages/Chat";
 
+
 function App() {
   return (
     <>
+    
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>

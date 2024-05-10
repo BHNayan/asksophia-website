@@ -22,10 +22,9 @@ const SupportHelp = () => {
           <Box1
             H1text="Community Forum Engagement"
             ButText="Support and Help"
-            PText="AskSophia’s Book Recommendations bring a library tailored to your tastes directly to your fingertips. 
-                Our AI-powered platform understands your reading habits and preferences to recommend books that inspire, entertain, and enlighten."
-            But2Link="/chat"
+            PText="Empowering Your AskSophia Experience with Comprehensive Support: From FAQs to Real-Time Assistance, We’ve Got You Covered."
             But2Text="Sign Up for Early Access"
+            But2Link="/"
             imglink={img}
             bgimgcode="/images/box1-bg-img.png"
           />
@@ -34,11 +33,11 @@ const SupportHelp = () => {
           <Box1Reverse
             H1text="AskSophia’s support"
             ButText="Support and Help"
-            PText=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat nisi tortor, quis consequat sem rutrum ut. 
-                Sed diam tellus, dictum id odio a, lacinia elementum ipsum. Mauris risus mi, 
-                ullamcorper fringilla egestas id, ullamcorper sed quam. Aliquam in feugiat nisl, nec aliquet arcu. Nulla et venenatis mi."
+            PText=" Experience a seamless journey with AskSophia. Need help or have a question? 
+            Dive into our Support Section now and discover how easy it is to get the answers and assistance you need. 
+            Your satisfaction is our priority!"
             But2Text="Sign Up for Early Access"
-            But2Link="/login"
+            But2Link="/"
             imglink="./images/box-img-58.png"
             bgimgcode=""
           />

@@ -22,9 +22,8 @@ const AskSophiaCommunity = () => {
           <Box1
             H1text="Join the AskSophia Community of Innovators"
             ButText="Connect, Share, and Grow"
-            PText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. 
-            Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. 
-            Nullam ac elit ac elit pharetra semper suscipit vitae sapien. Maecenas in vestibulum massa, et vulputate purus."
+            PText="Don’t just navigate the digital world alone. 
+            Join the AskSophia Community now to unlock a universe of collaboration, support, and endless learning opportunities"
             But2Link="/signup"
             But2Text="Sign Up for Early Access"
             imglink={img}

@@ -24,10 +24,8 @@ const TeamFamilySharing = () => {
           <Box1
             H1text="Collaboration Hub"
             ButText="Features"
-            PText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. 
-            Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. 
-            Nullam ac elit ac elit pharetra semper suscipit vitae sapien. Maecenas in vestibulum massa, et vulputate purus."
-            But2Link="/signup"
+            PText="An inviting graphic of a digital workspace showing team members contributing to a project in real-time"
+            But2Link="/"
             But2Text="Sign Up for Early Access"
             imglink={img}
             bgimgcode="/images/box-bg-2-img.png"
@@ -37,11 +35,10 @@ const TeamFamilySharing = () => {
           <Box1Reverse
             H1text="Family Calendar"
             ButText="Features"
-            PText=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vestibulum a nunc eros. Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. 
-            Nullam ac elit ac elit pharetra semper suscipit vitae sapien. Maecenas in vestibulum massa, et vulputate purus."
+            PText=" A visual representation of a shared family calendar with colorful events, reminders, 
+            and tasks, showcasing how easy it is to stay connected and organized"
             But2Text="Sign Up for Early Access"
-            But2Link="/login"
+            But2Link="/"
             imglink="./images/box-img-68.png"
             bgimgcode="#ABBDF7"
           />
@@ -50,10 +47,8 @@ const TeamFamilySharing = () => {
           <Box1
             H1text="Team Communication"
             ButText="Features"
-            PText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a nunc eros. 
-            Nam volutpat mauris in pharetra interdum. Quisque ultrices sem vitae arcu dignissim tempus. 
-            Nullam ac elit ac elit pharetra semper suscipit vitae sapien. Maecenas in vestibulum massa, et vulputate purus."
-            But2Link="/signup"
+            PText="Dynamic images of in-app messaging, video calls, or notification alerts highlighting the platform’s communication features"
+            But2Link="/"
             But2Text="Sign Up for Early Access"
             imglink={img}
             bgimgcode="/images/box-bg-2-img.png"
