@@ -104,7 +104,7 @@ const PricingBox = () => {
                   Digital BFF
                 </h3>
                 <h1 className="text-primary text-3xl md:text-4xl font-bold font-['Mona Sans'] uppercase mb-4">
-                  $ 19.99{" "}
+                  $ 9.97{" "}
                   <span className="text-slate-800 text-sm font-normal font-['Plus Jakarta Sans'] mt-2">
                     Per Month
                   </span>
@@ -161,7 +161,7 @@ const PricingBox = () => {
                   Queen B Mode
                 </h3>
                 <h1 className="text-white text-3xl md:text-4xl font-bold font-['Mona Sans'] uppercase mb-4">
-                  $ 39.99{" "}
+                  $ 19.97{" "}
                   <span className="text-white text-sm font-normal font-['Plus Jakarta Sans'] capitalize mt-2">
                     Per Month
                   </span>
@@ -211,7 +211,7 @@ const PricingBox = () => {
                   AskSophia Community
                 </h3>
                 <h1 className="text-primary text-2xl md:text-4xl font-bold font-['Mona Sans'] uppercase mb-4">
-                  $ 79.99{" "}
+                  $ 39.97{" "}
                   <span className="text-slate-800 text-sm font-normal font-['Plus Jakarta Sans'] mt-2">
                     Per Month
                   </span>
@@ -316,7 +316,7 @@ const PricingBox = () => {
                   Digital BFF
                 </h3>
                 <h1 className="text-primary text-3xl md:text-4xl font-bold font-['Mona Sans'] uppercase mb-4">
-                  $ 19.99{" "}
+                  $ 9.97{" "}
                   <span className="text-slate-800 text-sm font-normal font-['Plus Jakarta Sans'] mt-2">
                     Per Month
                   </span>
@@ -373,7 +373,7 @@ const PricingBox = () => {
                   Queen B Mode
                 </h3>
                 <h1 className="text-white text-3xl md:text-4xl font-bold font-['Mona Sans'] uppercase mb-4">
-                  $ 39.99{" "}
+                  $ 19.97{" "}
                   <span className="text-white text-sm font-normal font-['Plus Jakarta Sans'] capitalize mt-2">
                     Per Month
                   </span>
@@ -423,7 +423,7 @@ const PricingBox = () => {
                   AskSophia Community
                 </h3>
                 <h1 className="text-primary text-2xl md:text-4xl font-bold font-['Mona Sans'] uppercase mb-4">
-                  $ 79.99{" "}
+                  $ 39.97{" "}
                   <span className="text-slate-800 text-sm font-normal font-['Plus Jakarta Sans'] mt-2">
                     Per Month
                   </span>

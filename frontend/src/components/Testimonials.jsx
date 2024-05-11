@@ -52,18 +52,18 @@ const Testimonials = () => {
                 </div>
                 <div>
                   <p className=" text-slate-950 text-[16px] md:text-lg font-normal font-['Plus Jakarta Sans'] leading-relaxed">
-                    Sophia helps me balance my work and personal life
-                    seamlessly. It’s like having a personal assistant who knows
-                    me well.
+                    Integrating my daily tasks with AskSophia was a
+                    game-changer. The personalized reminders mean I never miss a
+                    beat, whether it’s work-related or personal.
                   </p>
                 </div>
                 <div className="p-2">
                   <Rating name="read-only" value={5} readOnly />
                   <p className="text-slate-950 text-base font-bold font-['Plus Jakarta Sans']">
-                    Jake
+                    Jordan
                   </p>
                   <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
-                    Entrepreneur
+                    Digital Marketer
                   </span>
                 </div>
               </div>
@@ -165,18 +165,18 @@ const Testimonials = () => {
                 </div>
                 <div>
                   <p className=" text-slate-950 text-[16px] md:text-lg font-normal font-['Plus Jakarta Sans'] leading-relaxed">
-                    Sophia helps me balance my work and personal life
-                    seamlessly. It’s like having a personal assistant who knows
-                    me well.
+                    I've discovered so many new interests through the news
+                    digest. AskSophia doesn't just know what I like; it knows
+                    what I'll love
                   </p>
                 </div>
                 <div className="p-2">
                   <Rating name="read-only" value={5} readOnly />
                   <p className="text-slate-950 text-base font-bold font-['Plus Jakarta Sans']">
-                    Jake
+                    Morgan
                   </p>
                   <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
-                    Entrepreneur
+                    Artist and Educator
                   </span>
                 </div>
               </div>
@@ -226,7 +226,7 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <div className="   h-[350px]  justify-center items-center shadow-lg border p-2  rounded-xl">
+            <div className=" h-[350px]  justify-center items-center shadow-lg border p-2  rounded-xl">
               <div className="flex flex-col justify-around items-start gap-4">
                 <div>
                   <FaQuoteLeft className="text-[#CCCFD3] h-8 w-8" />
@@ -244,6 +244,74 @@ const Testimonials = () => {
                   </p>
                   <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
                     Teacher
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className=" h-[350px]  justify-center items-center shadow-lg border p-2  rounded-xl">
+              <div className="flex flex-col justify-around items-start gap-4">
+                <div>
+                  <FaQuoteLeft className="text-[#CCCFD3] h-8 w-8" />
+                </div>
+                <div>
+                  <p className=" text-slate-950 text-[16px] md:text-lg font-normal font-['Plus Jakarta Sans'] leading-relaxed">
+                    Finding reliable DIY tips used to take hours. With
+                    AskSophia, I get the best tutorials suited to my skills in
+                    minutes
+                  </p>
+                </div>
+                <div className="p-2">
+                  <Rating name="read-only" value={5} readOnly />
+                  <p className="text-slate-950 text-base font-bold font-['Plus Jakarta Sans']">
+                    Casey
+                  </p>
+                  <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
+                    DIY Enthusiast
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className=" h-[350px]  justify-center items-center shadow-lg border p-2  rounded-xl">
+              <div className="flex flex-col justify-around items-start gap-4">
+                <div>
+                  <FaQuoteLeft className="text-[#CCCFD3] h-8 w-8" />
+                </div>
+                <div>
+                  <p className=" text-slate-950 text-[16px] md:text-lg font-normal font-['Plus Jakarta Sans'] leading-relaxed">
+                    AskSophia transformed my research process. It feels like it
+                    knows exactly what I'm looking for before I even finish
+                    typing
+                  </p>
+                </div>
+                <div className="p-2">
+                  <Rating name="read-only" value={5} readOnly />
+                  <p className="text-slate-950 text-base font-bold font-['Plus Jakarta Sans']">
+                    Sam
+                  </p>
+                  <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
+                    Graduate Student
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className=" h-[350px]  justify-center items-center shadow-lg border p-2  rounded-xl">
+              <div className="flex flex-col justify-around items-start gap-4">
+                <div>
+                  <FaQuoteLeft className="text-[#CCCFD3] h-8 w-8" />
+                </div>
+                <div>
+                  <p className=" text-slate-950 text-[16px] md:text-lg font-normal font-['Plus Jakarta Sans'] leading-relaxed">
+                  The interactive exercises feel like games, making it easy to stay motivated. 
+                  I’ve learned more French in the last two months with AskSophia than I did in an entire semester at college!
+                  </p>
+                </div>
+                <div className="p-2">
+                  <Rating name="read-only" value={5} readOnly />
+                  <p className="text-slate-950 text-base font-bold font-['Plus Jakarta Sans']">
+                  Priya
+                  </p>
+                  <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
+                  University Student
                   </span>
                 </div>
               </div>

@@ -40,7 +40,7 @@ const Box1Reverse = ({
       <div className="flex h-full  w-full p-2 rounded-xl justify-center items-center">
         <img
           src={imglink}
-          className={`h-full w-full md:w-[70%] rounded-3xl p-2 `}
+          className={`h-full w-full md:w-[70%] rounded-3xl p-4 `}
           style={{
             backgroundColor: bgimgcode,
           }}

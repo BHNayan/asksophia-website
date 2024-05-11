@@ -6,6 +6,7 @@ import img from "/images/box-img-46.png";
 import Testimonials from "../../components/Testimonials";
 import Box10 from "../../components/Box10";
 import Button from "../../components/Button";
+import Box11 from "../../components/Box11";
 
 const BookRecommendations = () => {
   return (
@@ -30,6 +31,31 @@ const BookRecommendations = () => {
             imglink={img}
             bgimgcode="/images/box-bg-2-img.png"
           />
+        </div>
+        <div className="w-full p-8 bg-[#0C041E] flex flex-col gap-8">
+          <div className="flex justify-center md:justify-start items-start gap-2">
+            <Button BTtext="AskSophia’s Book Recommendations" />
+          </div>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 p-2">
+            <div>
+              <h1 className="w-full md:w-[70%] text-neutral-50 text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[45px] md:leading-[53px]">
+                AskSophia's book picks, dive deep into literature
+              </h1>
+            </div>
+            <div className="flex justify-end">
+              <p className="w-full md:w-[70%] text-zinc-100 text-base font-normal font-['Plus Jakarta Sans'] leading-[23px]">
+                Our intuitive workflow is designed to understand your reading
+                preferences, whether you’re into thrilling mysteries,
+                captivating romances, thought-provoking non-fiction, or any
+                genre in between.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row justify-around  gap-4 md:gap-8 md:p-14">
+            <Box11 imgurl="./images/box-img-73.png" bgcolor="#FFEDD5" />
+            <Box11 imgurl="./images/box-img-74.png" bgcolor="#FEE2E2" />
+            <Box11 imgurl="./images/box-img-75.png" bgcolor="#E8F8C8" />
+          </div>
         </div>
 
         <div className="flex flex-col gap-4 p-2">

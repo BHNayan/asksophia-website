@@ -1,35 +1,43 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { FaFacebookF } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 
+
 const Footer = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when location changes
+  }, [location]);
   return (
     <div className="p-4 bg-black flex flex-col gap-2 overflow-x-hidden">
       <div className="flex flex-row justify-around items-center gap-2 w-full px-4 lg:px-20 py-2 lg:py-4">
         {/** footer left Text */}
         <div className="w-full justify-center items-center">
           <div className="w-full lg:w-[650px] gap-4">
-            <span className="text-yellow-300 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Mona Sans'] capitalize leading-[50px] lg:leading-[81px]">
+            <span className="text-yellow-300 text-[25px] md:text-[40px] lg:text-[65px] font-semibold font-['Mona Sans'] capitalize leading-[50px] lg:leading-[81px]">
               Ready
             </span>
-            <span className="text-slate-50 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Onest'] capitalize leading-[50px] lg:leading-[81px]">
+            <span className="text-slate-50 text-[30px] md:text-[40px] lg:text-[65px] font-semibold font-['Onest'] capitalize leading-[50px] lg:leading-[81px]">
               {" "}
             </span>
-            <span className="text-slate-50 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Plus Jakarta Sans'] capitalize leading-[50px] lg:leading-[81px]">
+            <span className="text-slate-50 text-[25px] md:text-[40px] lg:text-[65px] font-semibold font-['Plus Jakarta Sans'] capitalize leading-[50px] lg:leading-[81px]">
               to be{" "}
             </span>
-            <span className="text-orange-300 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Mona Sans'] capitalize leading-[50px] lg:leading-[81px]">
+            <span className="text-orange-300 text-[25px] md:text-[40px] lg:text-[65px] font-semibold font-['Mona Sans'] capitalize leading-[50px] lg:leading-[81px]">
               surprised?
             </span>
-            <span className="text-slate-50 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Onest'] capitalize leading-[50px] lg:leading-[81px]">
-              {" "}
-            </span>
-            <span className="text-slate-50 text-[30px] md:text-[45px] lg:text-[70px] font-semibold font-['Plus Jakarta Sans'] capitalize leading-[50px] lg:leading-[81px]">
+            <span className="text-slate-50 text-[30px] md:text-[40px] lg:text-[65px] font-semibold font-['Onest'] capitalize leading-[50px] lg:leading-[81px]">
+              {""}
+            </span><br></br>
+            <a href='https://meetasksophia.com/'> 
+            <span className="text-slate-50 text-[25px] md:text-[40px] lg:text-[65px] font-semibold font-['Plus Jakarta Sans'] capitalize leading-[50px] lg:leading-[81px]">
               Sign in Now
             </span>
+            </a>
           </div>
         </div>
         {/** footer Right Logo */}

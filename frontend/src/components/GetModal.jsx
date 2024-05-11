@@ -84,7 +84,7 @@ const GetModal = ({ isOpen, onClose }) => {
                     name="email"
                     value={Email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className=" p-2 w-full border-gray-300 rounded-md border-2 inset-4 shadow-sm focus:outline-none "
+                    className=" p-2 w-full border-gray-300 rounded-md border-2 shadow-lg  focus:outline-none "
                   />
                 </div>
               </div>

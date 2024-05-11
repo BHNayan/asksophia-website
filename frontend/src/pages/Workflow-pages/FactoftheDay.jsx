@@ -4,6 +4,8 @@ import Box1 from "../../components/Box1";
 import img from "/images/factday-img.png";
 import Testimonials from "../../components/Testimonials";
 import Box3 from "../../components/Box3";
+import Box1Reverse from "../../components/Box1Reverse";
+import Box4 from "../../components/Box4";
 
 const FactoftheDay = () => {
   return (
@@ -48,6 +50,28 @@ const FactoftheDay = () => {
             PText="Each fact is a gateway to exploring new topics, ideas, and areas of interest."
             imglink="/images/imagination-img.png"
             bgcolorcode="#FEF3C7"
+          />
+        </div>
+        <div className="p-2 md:p-10">
+          <Box1Reverse
+            H1text="Explore the World of Podcasts Tailored to Your Interests with AskSophia"
+            ButText="Fact Of The Day"
+            PText=" Embrace the wonders of the world with 'Fact of the Day'. 
+            Ignite your curiosity and enrich your conversations with knowledge that astonishes and inspires. 
+            Join us on this journey of discovery and let learning be your daily delight"
+            But2Text="Sign Up for Early Access"
+            But2Link="/"
+            imglink="./images/box-img-83.png"
+            bgimgcode="#F0CCED"
+          />
+        </div>
+        <div className="p-2 md:p-10">
+          <Box4
+            smheadingText="Join the AskSophia community"
+            headingText="Embark on a language learning journey  specifically for you with AskSophia"
+            ptext="Dive into interactive lessons, practice with real-life scenarios, and achieve your language goals with ease."
+            bttext="Sign Up for Early Access "
+            imglink="images/box-img-84.png"
           />
         </div>
         <div>

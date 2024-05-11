@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { useModal } from '../Context/ModalProvider';
+import { Link } from "react-router-dom";
 
 
 const listworkflows = [
@@ -217,7 +218,7 @@ const HomeBox = () => {
         </div>
         
         <div className="w-full  flex justify-center items-center">
-          <img src="./images/bg2-img.png" className="w-full md:w-[80%] " />
+          <img src="./images/img-box-home.png" className="w-full md:w-[80%] " />
         </div>
       </div>
 
@@ -228,7 +229,9 @@ const HomeBox = () => {
             className="p-2 gap-2 text-orange-200 text-[14px] md:text-[20px] font-medium font-['Mona Sans'] w-full whitespace-nowrap inline-flex items-center"
           >
             <img src="./images/Star3-img.png" className="bg-black" />
+            <Link to={workflow.wlink}>
             {workflow.name}
+            </Link>
           </button>
         ))}
       </div>
