@@ -30,32 +30,55 @@ const data = {
     {
       title:
         "How Can AskSophia Facilitate Collaboration for Families or Teams?",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>
+      AskSophia simplifies collaboration for families or teams through centralized communication, 
+      shared calendars for scheduling, and task management tools for assigning responsibilities. With seamless file sharing capabilities, 
+      members can easily coordinate activities and collaborate effectively, enhancing productivity and teamwork.</p>,
     },
     {
       title: "What Subscription Plans Are Available, and How Do They Differ",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>We offer three subscription plans: "Digital BFF," "Queen B Mode," and "AskSophia Community," 
+        available in both monthly and yearly options. 
+        Each plan varies in features and benefits, tailored to different user needs and preferences, 
+        providing flexibility and value for our users.</p>,
     },
     {
       title: "How Can AskSophia Assist Me with Online Shopping and Planning?",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>AskSophia simplifies online shopping and planning by providing personalized 
+        recommendations, helping you discover products and services tailored to your preferences and needs. Additionally, AskSophia can assist with organizing shopping lists, tracking deliveries, 
+        and setting reminders for important dates, ensuring a seamless and stress-free shopping experience.</p>,
     },
     {
       title: "Does AskSophia Offer Entertainment Recommendations?",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>Yes, AskSophia offers personalized entertainment recommendations 
+        tailored to your preferences. Whether you're looking for movies, TV shows, music, books, or podcasts, AskSophia can 
+        suggest content based on your interests, helping you discover new and enjoyable entertainment options.</p>,
     },
     {
       title:
         " Is There Technical Support Available If I Need Help with AskSophia?",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>
+      Yes, AskSophia provides technical support to assist users with any 
+      questions or issues they may encounter. Our dedicated support team is available to address inquiries, 
+      troubleshoot problems, and provide guidance to ensure a smooth and enjoyable experience with AskSophia.</p>,
     },
     {
       title: "How Is AskSophia Accessible on Different Devices?",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>AskSophia is accessible on various devices, including smartphones, 
+        tablets, laptops, and desktop computers. Our platform is optimized for responsiveness,
+         ensuring a seamless user experience across different screen sizes and resolutions. Additionally, 
+         AskSophia can be accessed through web browsers or dedicated mobile apps,
+         providing flexibility and convenience for users to engage with our platform anytime, anywhere.</p>,
     },
     {
       title: " What Sets AskSophia Apart from Other AI Assistants?",
-      content: <p>current version is 1.2.1</p>,
+      content: <p>
+      AskSophia stands out from other AI assistants due to its advanced natural 
+      language processing capabilities, extensive knowledge base, and personalized 
+      user experience. Unlike traditional AI assistants, AskSophia offers tailored 
+      recommendations, understands context, and learns from user interactions to provide more 
+      relevant and accurate responses over time. Additionally, AskSophia prioritizes 
+      user privacy and security, ensuring that sensitive information is protected and handled responsibly.</p>,
     },
   ],
 };

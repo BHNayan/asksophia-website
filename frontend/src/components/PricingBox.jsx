@@ -63,9 +63,11 @@ const PricingBox = () => {
                   Basic access to all workflows with standard features
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className=" text-black px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-white ">
-                    Current Plan
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className=" text-black px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-white ">
+                      Current Plan
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-black text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -113,9 +115,11 @@ const PricingBox = () => {
                   Enhanced features and personalization options. $19.99
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className=" bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-black ">
-                    Buy Now
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className=" bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-black ">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-black text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -151,11 +155,11 @@ const PricingBox = () => {
                     alt="img"
                     className="mb-4 bg-primary rounded-full justify-center items-center"
                   />
-                  <button className=" bg-white bg-opacity-20 backdrop-blur-md p-2 rounded-md">
+                  <div className=" bg-white bg-opacity-20 backdrop-blur-md p-2 rounded-md">
                     <h1 className="text-white text-sm font-bold font-['Plus Jakarta Sans'] uppercase">
                       Recommended
                     </h1>
-                  </button>
+                  </div>
                 </div>
                 <h3 className="text-white text-base font-bold font-['Plus Jakarta Sans'] mb-4">
                   Queen B Mode
@@ -170,9 +174,11 @@ const PricingBox = () => {
                   Enhanced features and personalization options. $39.99
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className="bg-white  text-black px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-primary ">
-                    Buy Now
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className="bg-white  text-black px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-primary ">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-white text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -220,9 +226,11 @@ const PricingBox = () => {
                   Enhanced features and personalization options. $ 79.99
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className="bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-black ">
-                    Buy Now
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className="bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-black ">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-black text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -275,9 +283,11 @@ const PricingBox = () => {
                   Basic access to all workflows with standard features
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className=" text-black px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-white ">
-                    Current Plan
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className=" text-black px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-white ">
+                      Current Plan
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-black text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -325,9 +335,11 @@ const PricingBox = () => {
                   Enhanced features and personalization options. $19.99
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className=" bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-black ">
-                    Buy Now
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className=" bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full hover:bg-primary hover:text-black ">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-black text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -382,9 +394,11 @@ const PricingBox = () => {
                   Enhanced features and personalization options. $39.99
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className="bg-white  text-black px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-primary ">
-                    Buy Now
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className="bg-white  text-black px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-primary ">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-white text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features
@@ -432,9 +446,11 @@ const PricingBox = () => {
                   Enhanced features and personalization options. $ 79.99
                 </div>
                 <div className="flex justify-center items-center w-full p-2">
-                  <button className="bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-black ">
-                    Buy Now
-                  </button>
+                  <a href="https://meetasksophia.com/" target="_blank">
+                    <button className="bg-primary text-white px-4 py-2 font-bold rounded-md mb-4 w-full  hover:text-black ">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
                 <h3 className="text-black text-sm font-bold font-['Plus Jakarta Sans'] uppercase mb-4">
                   Features

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IoIosClose, IoIosArrowDown } from "react-icons/io";
 import { CgMenuLeft } from "react-icons/cg";
 import { Dropdown } from "flowbite-react";
+import { useModal } from '../Context/ModalProvider';
 
 const MainNavbar = ({ closeMenu }) => {
   return (
@@ -177,6 +178,7 @@ const Navbar = ({ closeMenu }) => {
 };
 
 const Header = () => {
+  const { openModal } = useModal();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -229,7 +231,7 @@ const Header = () => {
                       </ul>
                     </div>
                     <div className="flex w-full justify-center items-center p-2 ">
-                      <button className="bg-primary px-8 py-3 xl:px-12 rounded-full text-white whitespace-nowrap">
+                      <button className="bg-primary px-8 py-3 xl:px-12 rounded-full text-white whitespace-nowrap" onClick={openModal}>
                         Get Started
                       </button>
                     </div>
@@ -258,7 +260,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex w-full justify-center items-center p-3 bg-white lg:w-[30%] lg:rounded-tl-3xl lg:rounded-bl-3xl">
-          <button className="bg-primary px-8 py-3 xl:px-12 rounded-full text-white whitespace-nowrap">
+          <button className="bg-primary px-8 py-3 xl:px-12 rounded-full text-white whitespace-nowrap" onClick={openModal}>
             Get Started
           </button>
         </div>
