@@ -6,79 +6,76 @@ const data = {
   rows: [
     {
       title: "How Exactly Does AskSophia Simplify My Daily Online Activities?",
-      content: `AskSophia leverages advanced AI to learn your preferences and habits, 
-      simplifying tasks like managing schedules, finding information, or shopping online. 
-      For example, if you regularly search for tech news in the morning, 
-      Sophia will start presenting you with a personalized digest of tech news without you having to ask.`,
+      content: <p>
+      AskSophia leverages advanced AI to learn your preferences and habits,
+       simplifying tasks like managing schedules, finding information, or shopping online. 
+       For example, if you regularly search for tech news in the morning, Sophia will start presenting you 
+       with a personalized digest of tech news without you having to ask.</p>,
     },
     {
       title:
         "Can You Give Examples of How AskSophia Personalizes My Experience?",
-      content: `AskSophia leverages advanced AI to learn your preferences and habits, 
-        simplifying tasks like managing schedules, finding information, or shopping online. 
-        For example, if you regularly search for tech news in the morning, 
-        Sophia will start presenting you with a personalized digest of tech news without you having to ask.`,
+        content: <p>
+        Absolutely! If you’re a fitness enthusiast, Sophia could suggest 
+        workout plans based on your goals and progress. Or, if you love cooking, 
+        Sophia might recommend recipes tailored to your dietary preferences 
+        and even help compile shopping lists based on those recipes.</p>,
     },
     {
       title:
         "How Does AskSophia Ensure My Personal Information Remains Secure?",
-      content: `AskSophia leverages advanced AI to learn your preferences and habits, 
-        simplifying tasks like managing schedules, finding information, or shopping online. 
-        For example, if you regularly search for tech news in the morning, 
-        Sophia will start presenting you with a personalized digest of tech news without you having to ask.`,
+       content: <p>
+      AskSophia employs state-of-the-art encryption and follows stringent 
+      data protection laws to secure your information. We only use your data 
+      to enhance your Sophia experience, never sharing it with third parties without your explicit consent.</p>,
     },
     {
       title:
         "How Can AskSophia Facilitate Collaboration for Families or Teams?",
       content: <p>
-      AskSophia simplifies collaboration for families or teams through centralized communication, 
-      shared calendars for scheduling, and task management tools for assigning responsibilities. With seamless file sharing capabilities, 
-      members can easily coordinate activities and collaborate effectively, enhancing productivity and teamwork.</p>,
+      Sophia allows you to share calendars, lists, and tasks seamlessly. For instance, 
+      families can coordinate schedules and shopping lists, while work teams can manage projects 
+      and deadlines, all within a secure and intuitive platform.</p>,
     },
     {
       title: "What Subscription Plans Are Available, and How Do They Differ",
-      content: <p>We offer three subscription plans: "Digital BFF," "Queen B Mode," and "AskSophia Community," 
-        available in both monthly and yearly options. 
-        Each plan varies in features and benefits, tailored to different user needs and preferences, 
-        providing flexibility and value for our users.</p>,
+      content: <p>We offer several plans, including a free option. 
+        ‘My Digital BFF’ adds more personalization and features. ‘Queen B Mode’ unlocks all premium features, 
+        while ‘AskSophia Community’ supports team and family collaboration. Each plan is designed to cater to 
+        different needs, ensuring there’s an option that fits everyone.</p>,
     },
     {
       title: "How Can AskSophia Assist Me with Online Shopping and Planning?",
-      content: <p>AskSophia simplifies online shopping and planning by providing personalized 
-        recommendations, helping you discover products and services tailored to your preferences and needs. Additionally, AskSophia can assist with organizing shopping lists, tracking deliveries, 
-        and setting reminders for important dates, ensuring a seamless and stress-free shopping experience.</p>,
+      content: <p>Sophia uses your shopping history and preferences to suggest 
+        relevant products, alert you to deals, and even track price drops. When planning, 
+        Sophia can organize your calendar, suggest travel itineraries, or help you discover local events based on your interests.</p>,
     },
     {
       title: "Does AskSophia Offer Entertainment Recommendations?",
-      content: <p>Yes, AskSophia offers personalized entertainment recommendations 
-        tailored to your preferences. Whether you're looking for movies, TV shows, music, books, or podcasts, AskSophia can 
-        suggest content based on your interests, helping you discover new and enjoyable entertainment options.</p>,
+      content: <p> Yes, based on your preferences, Sophia can recommend movies, 
+        books, podcasts, and music you’ll love, keeping your entertainment fresh and aligned with your tastes.</p>,
     },
     {
       title:
         " Is There Technical Support Available If I Need Help with AskSophia?",
       content: <p>
-      Yes, AskSophia provides technical support to assist users with any 
-      questions or issues they may encounter. Our dedicated support team is available to address inquiries, 
-      troubleshoot problems, and provide guidance to ensure a smooth and enjoyable experience with AskSophia.</p>,
+      Certainly! Our dedicated support team is available via email, 
+      live chat, and phone. Plus, our comprehensive Help Center provides guides, 
+      FAQs, and tutorials to help you make the most of AskSophia.</p>,
     },
     {
       title: "How Is AskSophia Accessible on Different Devices?",
-      content: <p>AskSophia is accessible on various devices, including smartphones, 
-        tablets, laptops, and desktop computers. Our platform is optimized for responsiveness,
-         ensuring a seamless user experience across different screen sizes and resolutions. Additionally, 
-         AskSophia can be accessed through web browsers or dedicated mobile apps,
-         providing flexibility and convenience for users to engage with our platform anytime, anywhere.</p>,
+      content: <p>AskSophia is built with a responsive design, 
+        ensuring a seamless experience whether you’re on a smartphone, tablet, 
+        or computer. Your settings and preferences sync across devices for continuous, integrated use.</p>,
     },
     {
       title: " What Sets AskSophia Apart from Other AI Assistants?",
       content: <p>
-      AskSophia stands out from other AI assistants due to its advanced natural 
-      language processing capabilities, extensive knowledge base, and personalized 
-      user experience. Unlike traditional AI assistants, AskSophia offers tailored 
-      recommendations, understands context, and learns from user interactions to provide more 
-      relevant and accurate responses over time. Additionally, AskSophia prioritizes 
-      user privacy and security, ensuring that sensitive information is protected and handled responsibly.</p>,
+      Unlike other assistants, AskSophia offers a deeply personalized experience, 
+      tailored to your unique lifestyle. With Sophia, you’re not just getting an AI assistant;
+       you’re getting a digital companion that understands and anticipates your needs, supported by a 
+       commitment to privacy and data security that’s second to none.</p>,
     },
   ],
 };

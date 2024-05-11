@@ -27,14 +27,14 @@ const listworkflows = [
   {
     id: "4",
     name: "Social Media Recap",
-    description: "Start your day with news tailored to your interests",
+    description: "Stay up-to-date with your social networks, minus the clutter",
     image: "../images/social.png",
     wlink:"/social-media-recap"
   },
   {
     id: "5",
     name: "Online Shopping",
-    description: "Sophia brings you shopping  based on your preferences",
+    description: "Sophia brings you shopping recommendations based on your preferences",
     image: "../images/online.png",
     wlink:"/online-shopping"
   },
@@ -42,42 +42,42 @@ const listworkflows = [
     id: "6",
     name: "Recipe Finder",
     description:
-      "Explore culinary ideas suited to your taste and dietary needs.",
+      "Explore culinary ideas suited to your taste and dietary needs",
     image: "../images/recepi.png",
     wlink:"/recipe-finder"
   },
   {
     id: "7",
     name: "Fitness Routine",
-    description: "Start your day with news tailored to your interests",
+    description: "Get custom workout plans that suit your fitness level and goals",
     image: "../images/fitness.png",
     wlink:"/fitness-routine"
   },
   {
     id: "8",
     name: "Local Events",
-    description: "Start your day with news tailored to your interests",
+    description: "Discover events and activities happening around you",
     image: "../images/local.png",
     wlink:"/local-events"
   },
   {
     id: "9",
     name: "Recommended Movies",
-    description: "Start your day with news tailored to your interests",
+    description: "Sophia suggests movies you’re sure to love",
     image: "../images/movies.png",
     wlink:"/recommended-movies"
   },
   {
     id: "10",
     name: "Recommended Books",
-    description: "Start your day with news tailored to your interests",
+    description: "Find your next great read with personalized book suggestions",
     image: "../images/book.png",
     wlink:"/recommended-books"
   },
   {
     id: "11",
     name: "Podcast Discovery",
-    description: "Start your day with news tailored to your interests",
+    description: "Explore podcasts that align with your interests",
     image: "../images/podcast.png",
     wlink:"/podcast-discovery"
   },
@@ -85,7 +85,7 @@ const listworkflows = [
     id: "12",
     name: "Music Discovery",
     description:
-      "Explore culinary ideas suited to your taste and dietary needs",
+      "Discover music tailored to your taste",
     image: "../images/music.png",
     wlink:"/music-discovery"
   },
@@ -93,42 +93,42 @@ const listworkflows = [
   {
     id: "13",
     name: "Game Suggestions",
-    description: "Start your day with news tailored to your interests",
+    description: "Get recommendations for games based on your preferred genres and platforms",
     image: "../images/game.png",
     wlink:"/game-suggestions"
   },
   {
     id: "14",
     name: "To Do List",
-    description: "Start your day with news tailored to your interests",
+    description: "Organize your tasks efficiently with Sophia’s help",
     image: "../images/todo.png",
     wlink:"/to-do-list"
   },
   {
     id: "15",
     name: "Language Learning",
-    description: "Start your day with news tailored to your interests",
+    description: "Sophia assists you in learning new languages at your own pace",
     image: "../images/language.png",
     wlink:"/language-learning"
   },
   {
     id: "16",
     name: "Travel Planning",
-    description: "Start your day with news tailored to your interests",
+    description: "Plan your travels effortlessly with Sophia’s comprehensive travel assistance",
     image: "../images/travel.png",
     wlink:"/travel-planning"
   },
   {
     id: "17",
     name: "Fact Of The Day",
-    description: "Start your day with news tailored to your interests",
+    description: "Learn something new every day with interesting facts",
     image: "../images/fact.png",
     wlink:"/fact-of-the-day"
   },
   {
     id: "18",
     name: "Money Saving Tips",
-    description: "Start your day with news tailored to your interests",
+    description: "Sophia offers practical tips to help manage your finances",
     image: "../images/money.png",
     wlink:"/money-saving-tips"
   },
@@ -136,14 +136,14 @@ const listworkflows = [
     id: "19",
     name: "Relaxation Techniques",
     description:
-      "Explore culinary ideas suited to your taste and dietary needs.",
+      "Find relaxation techniques for stress relief and better well-being",
     image: "../images/relax.png",
     wlink:"/relaxation-techniques"
   },
   {
     id: "20",
     name: "Tech News",
-    description: "Start your day with news tailored to your interests",
+    description: "Stay updated with the latest in technology.",
     image: "../images/tech.png",
     wlink:"/tech-news"
   },
