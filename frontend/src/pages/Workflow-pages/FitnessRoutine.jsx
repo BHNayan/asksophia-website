@@ -14,7 +14,9 @@ const FitnessRoutine = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Fitness Routine"
+          bredtxt="Fitness Routine"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">
@@ -41,7 +43,7 @@ const FitnessRoutine = () => {
               But2Text="Learn Something New"
               But2Link="/login"
               imglink="./images/box-img-34.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="Whenever I'm curious about something, Sophia is there with an answer. It's like Google, but more personal and fun!"
               Reviewauthor="Morgan"
               Reviewposition="Hobbyist Photographer"
@@ -56,7 +58,7 @@ const FitnessRoutine = () => {
               But2Text="Learn Something New"
               But2Link="/login"
               imglink="./images/box-img-35.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box1-bg-img.png"
               Reviewtext="Chatting with Sophia is like texting a friend who always knows exactly what I need. It's made my life so much simpler."
               Reviewauthor="Jamie"
               Reviewposition="High School Teacher"

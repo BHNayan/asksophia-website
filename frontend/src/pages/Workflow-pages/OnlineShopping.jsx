@@ -13,7 +13,9 @@ const OnlineShopping = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Online Shopping"
+          bredtxt="Online Shopping"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

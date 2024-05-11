@@ -16,7 +16,9 @@ const GameSuggestions = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Game Suggestions"
+          bredtxt="Game Suggestions"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

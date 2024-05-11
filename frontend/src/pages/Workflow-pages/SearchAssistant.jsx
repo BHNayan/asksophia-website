@@ -13,7 +13,9 @@ const SearchAssistant = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Search Assistant"
+          bredtxt="Search Assistant"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

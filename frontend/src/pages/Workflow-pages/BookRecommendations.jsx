@@ -16,7 +16,9 @@ const BookRecommendations = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Book Recommendations"
+          bredtxt="Book Recommendations"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

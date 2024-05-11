@@ -1,7 +1,15 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
-const Bredcum = ({ ShowButton, ShowTitle, ShowBredcum, Titletext }) => {
+const Bredcum = ({
+  ShowButton,
+  ShowTitle,
+  ShowBredcum,
+  ShowsubBredcum,
+  Titletext,
+  bredtxt,
+}) => {
   return (
     <div className="w-full  h-[220px] xl:h-[350px] p-4 bg-gradient-to-r from-[#3639b4] to-[#191b83] mb-2 xl:-mt-[20px] rounded-3xl flex flex-col justify-center items-center">
       {ShowButton && (
@@ -25,8 +33,19 @@ const Bredcum = ({ ShowButton, ShowTitle, ShowBredcum, Titletext }) => {
 
       {ShowBredcum && (
         <div className="p-2">
-          <p className="text-white text-base font-medium font-['Plus Jakarta Sans']">
-            Home / Global Features
+          <p className="text-white text-base font-medium font-['Plus Jakarta Sans'] p-1">
+            <Link to={"/"}>
+              <span className="underline text-white p-2 text-[14px]">Home</span>
+            </Link>
+            /
+            {ShowsubBredcum && (
+              <Link to={"/workflows"}>
+                <span className="underline text-white text-[14px] p-2">Workflows</span> /
+              </Link>
+              
+            )}
+            
+            <span className=" text-white p-2 text-[14px]">{bredtxt}</span>
           </p>
         </div>
       )}

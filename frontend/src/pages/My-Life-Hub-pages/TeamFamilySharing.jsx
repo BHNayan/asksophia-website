@@ -17,6 +17,7 @@ const TeamFamilySharing = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="Team & Family Sharing"
+          bredtxt="Team & Family Sharing"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

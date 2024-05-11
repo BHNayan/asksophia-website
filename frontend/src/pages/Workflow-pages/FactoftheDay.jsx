@@ -15,7 +15,9 @@ const FactoftheDay = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Fact of the Day"
+          bredtxt="Fact of the Day"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

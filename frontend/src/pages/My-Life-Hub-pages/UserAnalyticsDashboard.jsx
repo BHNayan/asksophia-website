@@ -16,6 +16,8 @@ const UserAnalyticsDashboard = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="User Analytics Dashboard"
+          bredtxt="User Analytics Dashboard"
+
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

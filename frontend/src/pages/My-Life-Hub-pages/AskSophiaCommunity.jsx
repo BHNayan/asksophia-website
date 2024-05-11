@@ -15,6 +15,8 @@ const AskSophiaCommunity = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="AskSophia Community"
+          bredtxt="AskSophia Community"
+          bredlink="/askSophia-community"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

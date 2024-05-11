@@ -16,6 +16,7 @@ const UserDataPrivacy = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="User Data Privacy"
+          bredtxt="User Data Privacy"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

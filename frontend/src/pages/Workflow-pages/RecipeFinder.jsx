@@ -13,7 +13,9 @@ const RecipeFinder = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Recipe Finder"
+          bredtxt="Recipe Finder"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

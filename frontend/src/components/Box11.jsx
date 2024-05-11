@@ -9,7 +9,7 @@ const Box11 = ({ imgurl, bgcolor }) => {
       }}
     >
       <div className="p-2 rounded-2xl">
-        <img src={imgurl} alt="box-img" className="w-full h-full rounded-2xl" />
+        <img src={imgurl} alt="box-img" className="w-full h-full rounded-2xl p-1" />
       </div>
     </div>
   );

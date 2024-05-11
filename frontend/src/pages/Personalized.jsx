@@ -21,6 +21,7 @@ const Personalized = () => {
           ShowButton={true}
           ShowBredcum={true}
           Titletext="Your Personalized Digital Universe Awaits"
+          bredtxt="Personalized Digital"
         />
       </div>
       <div className="bg-[#0C041E] pt-4 pr-4 pb-0 pl-4 md:pt-16 md:pb-0 md:pr-16 md:pl-16 flex flex-col gap-4">

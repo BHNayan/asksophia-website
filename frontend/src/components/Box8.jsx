@@ -46,7 +46,7 @@ const Box8 = ({
                 <img
                   src="./images/quote-img-1.png"
                   alt="images"
-                  className="text-[#B3BCD3] h-[30px] w-[30px] p-1"
+                  className="text-[#B3BCD3] h-[30px] w-[30px] p-1 rounded-2xl"
                 />
               </div>
               <div>
@@ -70,7 +70,7 @@ const Box8 = ({
       <div className="flex h-full  w-full p-4 rounded-xl justify-center items-center">
         <img
           src={imglink}
-          className={`h-full w-full md:w-[80%] shadow-xl p-4 `}
+          className={`h-full w-full md:w-[80%] shadow-xl p-4 rounded-2xl `}
           style={{
             backgroundImage: `url('${bgimgcode}')`,
             backgroundSize: "cover", // Optional: adjust to your needs

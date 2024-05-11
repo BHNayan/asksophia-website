@@ -13,7 +13,9 @@ const LanguageLearning = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Language Learning"
+          bredtxt="Language Learning"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">
@@ -40,7 +42,7 @@ const LanguageLearning = () => {
             But2Link="/chat"
             But2Text="Sign Up for Early Access"
             imglink={img}
-            bgimgcode="/images/box-bg-2-img.png"
+            bgimgcode="#D9A0F4"
           />
         </div>
         <div>

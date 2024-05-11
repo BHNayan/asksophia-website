@@ -15,6 +15,7 @@ const SupportHelp = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="Support and Help"
+          bredtxt="Support and Help"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

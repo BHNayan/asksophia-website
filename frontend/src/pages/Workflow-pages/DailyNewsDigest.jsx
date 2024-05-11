@@ -13,7 +13,9 @@ const DailyNewsDigest = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Daily News Digest"
+          bredtxt="Daily News Digest"
         />
       </div>
       <div>

@@ -17,6 +17,8 @@ const YourLifestyleManagerChatbot = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="Your Lifestyle Manager Chatbot"
+          bredtxt="Your Lifestyle Manager Chatbot"
+          
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

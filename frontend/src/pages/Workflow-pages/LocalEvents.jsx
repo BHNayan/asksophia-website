@@ -13,7 +13,9 @@ const LocalEvents = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Local Events"
+          bredtxt="Local Events"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

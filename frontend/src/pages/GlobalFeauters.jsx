@@ -12,6 +12,7 @@ const GlobalFeauters = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="Global Features"
+          bredtxt="Global Features"
         />
       </div>
 
@@ -26,10 +27,10 @@ const GlobalFeauters = () => {
               But2Text="Get Started"
               But2Link="/chat"
               imglink="./images/box-img-25.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="Chatting with Sophia is like texting a friend who always knows exactly what I need. It's made my life so much simpler."
-              Reviewauthor="Jamie"
-              Reviewposition="High School Teacher"
+              Reviewauthor="Jhonson"
+              Reviewposition="Enterpreneur"
             />
           </div>
           <div>
@@ -40,7 +41,7 @@ const GlobalFeauters = () => {
               But2Text="Get Started"
               But2Link="/chat"
               imglink="./images/box-img-27.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="I never thought I could create such amazing graphics. Sophia made it not only possible but easy and fun!"
               Reviewauthor="Morgan"
               Reviewposition="Hobbyist Photographer"
@@ -54,7 +55,7 @@ const GlobalFeauters = () => {
               But2Text="Get Started"
               But2Link="/chat"
               imglink="./images/box-img-28.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="Whenever I'm curious about something, Sophia is there with an answer. It's like Google, but more personal and fun!"
               Reviewauthor="Jamie"
               Reviewposition="High School Teacher"
@@ -68,7 +69,7 @@ const GlobalFeauters = () => {
               But2Text="Get Started"
               But2Link="/chat"
               imglink="./images/box-img-29.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="Organizing with Sophia means I spend less time managing chaos and more time enjoying life with my family."
               Reviewauthor="Taylor"
               Reviewposition="Stay-at-Home Parent"
@@ -82,7 +83,7 @@ const GlobalFeauters = () => {
               But2Text="Get Started"
               But2Link="/chat"
               imglink="./images/box-img-30.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="I discovered products I love but would have never found on my own. Shopping with Sophia feels like it's curated just for me."
               Reviewauthor="Chris"
               Reviewposition="Busy Professional"
@@ -96,7 +97,7 @@ const GlobalFeauters = () => {
               But2Text="Get Started"
               But2Link="/chat"
               imglink="./images/box-img-31.png"
-              bgimgcode="./images/box-img-26.png"
+              bgimgcode="./images/box-bg-2-img.png"
               Reviewtext="Sophia's insights helped me connect with my customers on a new level. My small business has grown so much since."
               Reviewauthor="Pat"
               Reviewposition="Small Business Owner"

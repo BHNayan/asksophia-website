@@ -15,7 +15,9 @@ const PodcastDiscovery = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Podcast Discovery"
+          bredtxt="Podcast Discovery"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

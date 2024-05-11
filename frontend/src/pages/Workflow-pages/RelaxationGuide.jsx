@@ -14,7 +14,9 @@ const RelaxationGuide = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Relaxation Guide"
+          bredtxt="Relaxation Guide"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

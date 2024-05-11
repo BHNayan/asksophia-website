@@ -14,7 +14,9 @@ const MoneySavingTips = () => {
           ShowTitle={true}
           ShowButton={false}
           ShowBredcum={true}
+          ShowsubBredcum={true}
           Titletext="Money-Saving Tips"
+          bredtxt="Money-Saving Tips"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">

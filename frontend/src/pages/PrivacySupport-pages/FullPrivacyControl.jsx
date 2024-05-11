@@ -14,6 +14,7 @@ const FullPrivacyControl = () => {
           ShowButton={false}
           ShowBredcum={true}
           Titletext="Full Privacy Control"
+          bredtxt="Full Privacy Control"
         />
       </div>
       <div className="flex flex-col gap-4 p-4">
