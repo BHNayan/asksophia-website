@@ -40,7 +40,7 @@ const HomeBox2 = () => {
       <div>
         <Box9
           heading="The Social Butterfly"
-          imgSrc="./images/box9-img2.png"
+          imgSrc="./images/hm-box-imhg-2.png"
           paragraph="Stay connected and updated in your social circles with Sophia’s curated social media insights."
           backgroundcolor="#D1FAE5"
         />

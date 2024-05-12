@@ -16,15 +16,15 @@ const HomeBox3 = () => {
       </div>
       <div className="p-2">
         <img
-          src="./images/box10-img1.png"
+          src="./images/hm-bg-4.png"
           alt="img"
-          className="h-full w-full p-2"
+          className="h-full w-full md:p-2"
         />
       </div>
 
-      <div className="flex justify-center items-center p-4 bg-cover ">
+      <div className="flex justify-center items-center p-4 ">
         <Link to="/workflows">
-          <button className="flex flex-row justify-start items-center gap-2 bg-[#7F64C3] rounded-full px-4 py-2 w-fit">
+          <button className="flex flex-row justify-start items-center gap-2 bg-[#7F64C3]  rounded-full px-4 py-2 w-fit">
             <h1 className="text-white text-base font-medium font-['Plus Jakarta Sans']">
               View Workflows
             </h1>

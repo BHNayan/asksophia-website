@@ -8,8 +8,14 @@ const Box9 = ({ heading, imgSrc, paragraph, backgroundcolor }) => {
         style={{
           backgroundColor: backgroundcolor,
         }}
+
       >
-        <img src={imgSrc} alt="Image" className="rounded-2xl  md:h-[400px] md:w-[60%] w-full " />
+        <img
+          src={imgSrc}
+          alt="Image"
+          className="rounded-2xl h-full w-full md:w-[70%] p-2 md:h-[400px]"
+          
+        />
       </div>
       <div className="p-2 flex flex-col gap-2">
         <h2 className="text-zinc-900 text-xl font-bold font-['Plus Jakarta Sans']">
@@ -19,7 +25,6 @@ const Box9 = ({ heading, imgSrc, paragraph, backgroundcolor }) => {
           {paragraph}
         </p>
       </div>
-
     </div>
   );
 };

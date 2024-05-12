@@ -247,7 +247,7 @@ const Header = () => {
             <img
               src="./images/asksophia-logo.png"
               alt="logo"
-              className="w-full h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] xl:h-[55px] sm:w-[80%] md:w-[60%] lg:w-[80%] xl:w-[80%] object-fill"
+              className="w-full h-full  object-contain"
             />
           </Link>
         </div>
