@@ -1,15 +1,26 @@
+// server.js
+
 const express = require('express');
-const bodyParser = require('body-parser');
-const axios = require('axios');
-const cors = require('cors');
+const http = require('http');
+const socketIo = require('socket.io');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const server = http.createServer(app);
+const io = socketIo(server);
 
-// Middleware
-app.use(cors());
-app.use(bodyParser.json());
+io.on('connection', (socket) => {
+  console.log('Client connected');
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  socket.on('disconnect', () => {
+    console.log('Client disconnected');
+  });
+
+  // Handle chat messages
+  socket.on('chat message', (message) => {
+    io.emit('chat message', message);
+  });
+});
+
+server.listen(4000, () => {
+  console.log('Server running on port 4000');
 });
