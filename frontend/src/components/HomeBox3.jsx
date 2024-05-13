@@ -3,7 +3,9 @@ import Button from "./Button";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
+
 const HomeBox3 = () => {
+  
   return (
     <div className="w-full flex flex-col justify-center items-center p-4 pb-4 gap-4 bg-[#0C041E] rounded-3xl">
       <div className="pt-10">

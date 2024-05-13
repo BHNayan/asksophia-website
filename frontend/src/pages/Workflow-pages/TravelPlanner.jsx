@@ -7,8 +7,10 @@ import Box1Reverse from "../../components/Box1Reverse";
 import Button from "../../components/Button";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import Box4 from "../../components/Box4";
+import { useTheme } from "../../Context/ThemeContext";
 
 const TravelPlanner = () => {
+  const { theme, toggleTheme } = useTheme();
   return (
     <>
       <div>
@@ -43,7 +45,11 @@ const TravelPlanner = () => {
               <Button BTtext="AskSophia’s Travel Planner" />
             </div>
             <div>
-              <p className="w-full md:w-[523px] text-zinc-900 text-[32px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px]">
+              <p
+                className={`w-full md:w-[523px] text-[32px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px] ${
+                  theme === "light" ? "text-zinc-900" : "text-white"
+                }`}
+              >
                 Destinations you can explore with AskSophia
               </p>
             </div>
@@ -54,14 +60,26 @@ const TravelPlanner = () => {
                   alt="img"
                   className="w-full h-full rounded-2xl"
                 />
-                <h1 className="text-black text-lg font-bold font-['Plus Jakarta Sans']">
+                <h1
+                  className={`text-lg font-bold font-['Plus Jakarta Sans'] ${
+                    theme === "light" ? "text-zinc-900" : "text-white"
+                  }`}
+                >
                   Trip to Amsterdam
                 </h1>
-                <h2 className="text-slate-500 text-base font-normal font-['Plus Jakarta Sans']">
+                <h2
+                  className={`text-base font-normal font-['Plus Jakarta Sans'] ${
+                    theme === "light" ? "text-slate-500" : "text-white"
+                  }`}
+                >
                   4,678 available trips
                 </h2>
                 <div className="flex flex-row gap-2 border-b-2 border-b-[#6366F2] pb-2">
-                  <h4 className="text-primary text-base font-bold font-['Plus Jakarta Sans']">
+                  <h4
+                    className={` text-base font-bold font-['Plus Jakarta Sans'] ${
+                      theme === "light" ? "text-primary" : "text-primary"
+                    }`}
+                  >
                     Checkout Deals & Compare
                   </h4>
                   <MdOutlineArrowOutward className="text-primary h-6 w-6 " />
@@ -73,10 +91,18 @@ const TravelPlanner = () => {
                   alt="img"
                   className="w-full h-full rounded-2xl"
                 />
-                <h1 className="text-black text-lg font-bold font-['Plus Jakarta Sans']">
+                <h1
+                  className={`text-lg font-bold font-['Plus Jakarta Sans'] ${
+                    theme === "light" ? "text-zinc-900" : "text-white"
+                  }`}
+                >
                   Trip to Amsterdam
                 </h1>
-                <h2 className="text-slate-500 text-base font-normal font-['Plus Jakarta Sans']">
+                <h2
+                  className={`text-base font-normal font-['Plus Jakarta Sans'] ${
+                    theme === "light" ? "text-slate-500" : "text-white"
+                  }`}
+                >
                   4,678 available trips
                 </h2>
                 <div className="flex flex-row gap-2 border-b-2 border-b-[#6366F2] pb-2">

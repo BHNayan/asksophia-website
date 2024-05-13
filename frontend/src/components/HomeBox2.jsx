@@ -3,9 +3,11 @@ import Button from "./Button";
 import { BsArrowRight } from "react-icons/bs";
 import Box9 from "./Box9";
 import { useModal } from "../Context/ModalProvider";
+import { useTheme } from "../Context/ThemeContext";
 
 const HomeBox2 = () => {
   const { openModal } = useModal();
+  const { theme, toggleTheme } = useTheme();
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-3xl p-4 gap-4 w-full overflow-x-hidden">
       <div className="w-full p-4 flex flex-col gap-8">
@@ -13,16 +15,27 @@ const HomeBox2 = () => {
           <Button BTtext="Predefined Profiles" />
         </div>
 
-        <p className="w-full font-['Mona Sans'] font-semibold text-zinc-900 text-[40px] tracking-[-1.20px] leading-[53px]">
+        <p
+          className={`w-full font-['Mona Sans'] font-semibold  text-[40px] tracking-[-1.20px] leading-[53px] ${
+            theme === "light" ? "text-zinc-900 " : "text-white "
+          }`}
+        >
           Discover Your Digital Persona with AskSophia
         </p>
 
-        <p className="w-[413px] text-zinc-600 text-base font-normal font-['Plus Jakarta Sans'] leading-[23px]">
+        <p
+          className={`w-full md:w-[413px]  text-base font-normal font-['Plus Jakarta Sans'] leading-[23px] ${
+            theme === "light" ? "text-zinc-600 " : "text-white "
+          }`}
+        >
           With Sophia, schedule family events, share tasks, or collaborate on
           projects seamlessly. Sophia’s collaborative tools are designed to keep
           teams and families in sync
         </p>
-        <button className="flex flex-row justify-start items-center gap-2 bg-primary rounded-full px-4 py-2 w-fit" onClick={openModal}>
+        <button
+          className="flex flex-row justify-start items-center gap-2 bg-primary rounded-full px-4 py-2 w-fit"
+          onClick={openModal}
+        >
           <h1 className="text-white text-base font-medium font-['Plus Jakarta Sans']">
             Get Started
           </h1>
@@ -69,7 +82,6 @@ const HomeBox2 = () => {
           backgroundcolor="#FEF3C7"
         />
       </div>
-
     </div>
   );
 };

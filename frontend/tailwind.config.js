@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { dark, light } from "@mui/material/styles/createPalette";
 import keepPreset from "keep-react/preset";
 
 export default {
@@ -7,11 +8,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/keep-react/**/*.{js,jsx,ts,tsx}"
   ],
+  
   theme: {
     extend: {
       colors: {
         primary: "#6366F1",
-
+        lightcolor:"#ffffff",
+        darkcolor:"#333333",
       },
     },
     fontFamily: {

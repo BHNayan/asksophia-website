@@ -6,8 +6,10 @@ import img from "/images/box-img-36.png";
 import Testimonials from "../../components/Testimonials";
 import Box10 from "../../components/Box10";
 import Button from "../../components/Button";
+import { useTheme } from "../../Context/ThemeContext";
 
 const PodcastDiscovery = () => {
+  const { theme, toggleTheme } = useTheme();
   return (
     <>
       <div>
@@ -53,8 +55,12 @@ const PodcastDiscovery = () => {
               <Button BTtext="AskSophia's Podcast discovery " />
             </div>
             <div>
-              <h1 className="text-center text-zinc-900 text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[33px] md:leading-[53px]">
-              AskSophia's Podcast discovery<br></br> experience
+              <h1
+                className={`text-center text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-normal md:leading-[53px] ${
+                  theme === "light" ? "text-zinc-900" : "text-white"
+                }`}
+              >
+                AskSophia's Podcast discovery<br></br> experience
               </h1>
             </div>
           </div>
@@ -91,6 +97,6 @@ const PodcastDiscovery = () => {
       </div>
     </>
   );
-}
+};
 
-export default PodcastDiscovery
+export default PodcastDiscovery;

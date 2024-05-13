@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import { RiCheckboxCircleLine } from "react-icons/ri";
+import { useTheme } from "../Context/ThemeContext";
 
 const PricingBox = () => {
+  const { theme, toggleTheme } = useTheme();
   const [isMonthly, setIsMonthly] = useState(true);
 
   const handleTabClick = (isMonthly) => {
@@ -15,12 +17,20 @@ const PricingBox = () => {
         <Button BTtext="Family and Team Collaboration" />
       </div>
       <div>
-        <p className="w-full text-center text-[#18181B] text-[24px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[56px] mb-2">
+        <p
+          className={`w-full text-center text-[24px] md:text-[40px] font-semibold font-['Mona Sans'] leading-normal md:leading-[56px] mb-2 ${
+            theme === "light" ? "text-[#18181B] " : "text-white "
+          }`}
+        >
           Sophia’s Plans, Designed<br></br> for Everyone
         </p>
       </div>
-      <div className="p-2 mb-2">
-        <p className="text-center text-slate-600 text-[12px] md:text-base font-normal font-['Plus Jakarta Sans']">
+      <div className="p-1 mb-2">
+        <p
+          className={`text-center text-[13px] md:text-base font-normal font-['Plus Jakarta Sans'] ${
+            theme === "light" ? "text-slate-600 " : "text-white "
+          }`}
+        >
           Simple Pricing, No Hidden Fees, Advanced Features for you.
         </p>
       </div>
@@ -44,7 +54,13 @@ const PricingBox = () => {
       </div>
       {isMonthly ? (
         <div className="w-full flex flex-col justify-center items-center gap-2 p-2">
-          <h2 className="text-2xl font-bold mb-4">Monthly Plan</h2>
+          <h2
+            className={`text-2xl font-bold mb-4 ${
+              theme === "light" ? "text-zinc-900 " : "text-white "
+            }`}
+          >
+            Monthly Plan
+          </h2>
           <div className="p-2">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-center items-center">
               <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">
@@ -264,7 +280,13 @@ const PricingBox = () => {
         </div>
       ) : (
         <div className="w-full flex flex-col justify-center items-center gap-2 p-2">
-          <h2 className="text-2xl font-bold mb-4">Yearly Plan</h2>
+          <h2
+            className={`text-2xl font-bold mb-4 ${
+              theme === "light" ? "text-zinc-900 " : "text-white "
+            }`}
+          >
+            Yearly Plan
+          </h2>
           <div className="p-2">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-center items-center">
               <div className="bg-white rounded-lg p-4 shadow-lg border md:h-[500px]">

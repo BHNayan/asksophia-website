@@ -4,6 +4,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Rating from "@mui/material/Rating";
 import { useModal } from "../Context/ModalProvider";
+import { useTheme } from "../Context/ThemeContext";
 
 const Box8 = ({
   H1text,
@@ -17,6 +18,7 @@ const Box8 = ({
   Reviewauthor,
   Reviewposition,
 }) => {
+  const { theme, toggleTheme } = useTheme();
   const { openModal } = useModal();
   return (
     <div className="flex flex-col md:flex-row p-4  gap-14 md:gap-2 w-full  justify-center items-center">
@@ -24,12 +26,19 @@ const Box8 = ({
         <div className="flex flex-col gap-4 md:gap-8 justify-start items-start p-2 w-full">
           <Button BTtext={ButText} />
           <div>
-            <h1 className="w-full lg:w-[80%] text-zinc-900 text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px]">
+            <h1 
+            className={`w-full lg:w-[80%] text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px] ${
+            theme === "light" ? "text-zinc-900 " : "text-white "
+          }`}
+            >
               {H1text}
             </h1>
           </div>
           <div>
-            <p className="w-full lg:w-[80%] text-zinc-600 text-base font-normal font-['Plus Jakarta Sans'] leading-[23px]">
+            <p 
+             className={`w-full lg:w-[80%] text-base font-normal font-['Plus Jakarta Sans'] leading-[23px] ${
+            theme === "light" ? "text-zinc-900 " : "text-white "
+          }`}>
               {PText}
             </p>
           </div>

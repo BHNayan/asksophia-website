@@ -7,8 +7,10 @@ import Box4 from "../../components/Box4";
 import GameSlider from "../../components/GameSlider";
 import Button from "../../components/Button";
 import Box13 from "../../components/Box13";
+import { useTheme } from "../../Context/ThemeContext";
 
 const GameSuggestions = () => {
+  const { theme, toggleTheme } = useTheme();
   return (
     <>
       <div>
@@ -36,7 +38,11 @@ const GameSuggestions = () => {
         </div>
         <div className="flex flex-col justify-center items-center p-4 gap-10 ">
           <div>
-            <h1 className="text-center text-zinc-900 text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[40px] md:leading-[53px]">
+            <h1
+              className={`text-center text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-normal md:leading-[53px] ${
+                theme === "light" ? "text-zinc-900" : "text-white"
+              }`}
+            >
               Top Game Suggestions
             </h1>
           </div>

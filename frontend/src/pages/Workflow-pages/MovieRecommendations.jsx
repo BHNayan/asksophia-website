@@ -6,8 +6,11 @@ import img from "/images/box-img-36.png";
 import Testimonials from "../../components/Testimonials";
 import Box10 from "../../components/Box10";
 import Button from "../../components/Button";
+import { useTheme } from "../../Context/ThemeContext";
 
 const MovieRecommendations = () => {
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <>
       <div>
@@ -51,8 +54,13 @@ const MovieRecommendations = () => {
               <Button BTtext="AskSophia’s Movie Recommendations" />
             </div>
             <div>
-              <h1 className="text-center text-zinc-900 text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[33px] md:leading-[53px]">
-              Welcome to a cinematic journey tailored just for you with<br></br> AskSophia’s Movie Recommendations
+              <h1
+                className={`text-center text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-normal md:leading-[53px] ${
+                  theme === "light" ? "text-zinc-900" : "text-white"
+                }`}
+              >
+                Welcome to a cinematic journey tailored just for you with
+                <br></br> AskSophia’s Movie Recommendations
               </h1>
             </div>
           </div>

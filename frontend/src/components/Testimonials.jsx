@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Button from "./Button";
 import Rating from "@mui/material/Rating";
 import { FaQuoteLeft } from "react-icons/fa";
+import { useTheme } from "../Context/ThemeContext";
 
 const Testimonials = () => {
   const settings = {
@@ -36,10 +37,15 @@ const Testimonials = () => {
       },
     ],
   };
+  const { theme, toggleTheme } = useTheme();
   return (
     <div className="flex flex-col  items-center gap-2 p-2 mt-10 mb-10 ">
       <Button BTtext="Testimonials" />
-      <h1 className="w-full md:w-[613px] text-center text-zinc-900 text-[24px] md:text-[44px] font-semibold font-['Mona Sans'] leading-[36px] md:leading-[56px] capitalize">
+      <h1
+        className={`w-full md:w-[613px] text-center text-[24px] md:text-[44px] font-semibold font-['Mona Sans'] leading-normal md:leading-[56px] capitalize ${
+          theme === "light" ? "text-zinc-900 " : "text-white "
+        }`}
+      >
         See How Others Are Benefiting from AskSophia
       </h1>
       <div className="slider-container w-full p-2 h-[420px]  justify-center items-center m-2 gap-2">
@@ -301,17 +307,19 @@ const Testimonials = () => {
                 </div>
                 <div>
                   <p className=" text-slate-950 text-[16px] md:text-lg font-normal font-['Plus Jakarta Sans'] leading-relaxed">
-                  The interactive exercises feel like games, making it easy to stay motivated. 
-                  I’ve learned more French in the last two months with AskSophia than I did in an entire semester at college!
+                    The interactive exercises feel like games, making it easy to
+                    stay motivated. I’ve learned more French in the last two
+                    months with AskSophia than I did in an entire semester at
+                    college!
                   </p>
                 </div>
                 <div className="p-2">
                   <Rating name="read-only" value={5} readOnly />
                   <p className="text-slate-950 text-base font-bold font-['Plus Jakarta Sans']">
-                  Priya
+                    Priya
                   </p>
                   <span className="text-slate-400 text-sm font-normal font-['Plus Jakarta Sans']">
-                  University Student
+                    University Student
                   </span>
                 </div>
               </div>

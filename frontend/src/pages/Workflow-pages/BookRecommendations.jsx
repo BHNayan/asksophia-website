@@ -7,8 +7,10 @@ import Testimonials from "../../components/Testimonials";
 import Box10 from "../../components/Box10";
 import Button from "../../components/Button";
 import Box11 from "../../components/Box11";
+import { useTheme } from "../../Context/ThemeContext";
 
 const BookRecommendations = () => {
+  const { theme, toggleTheme } = useTheme();
   return (
     <>
       <div>
@@ -40,7 +42,9 @@ const BookRecommendations = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 p-2">
             <div>
-              <h1 className="w-full md:w-[70%] text-neutral-50 text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[45px] md:leading-[53px]">
+              <h1
+                className="w-full md:w-[70%] text-white  text-[30px] md:text-[40px] font-semibold font-['Mona Sans'] leading-normal md:leading-[53px]"
+              >
                 AskSophia's book picks, dive deep into literature
               </h1>
             </div>
@@ -66,7 +70,11 @@ const BookRecommendations = () => {
               <Button BTtext="AskSophia’s Book Recommendations" />
             </div>
             <div>
-              <h1 className="text-center text-zinc-900 text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-[33px] md:leading-[53px]">
+              <h1
+                className={`text-center text-[22px] md:text-[40px] font-semibold font-['Mona Sans'] leading-normal md:leading-[53px] ${
+                  theme === "light" ? "text-zinc-900" : "text-white"
+                }`}
+              >
                 AskSophia's Book Picks: Explore <br></br>literature's depths
               </h1>
             </div>

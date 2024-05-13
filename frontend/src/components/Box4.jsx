@@ -4,7 +4,14 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { useModal } from "../Context/ModalProvider";
 
-const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink,btlink }) => {
+const Box4 = ({
+  smheadingText,
+  headingText,
+  ptext,
+  bttext,
+  imglink,
+  btlink,
+}) => {
   const { openModal } = useModal();
   return (
     <div
@@ -22,7 +29,7 @@ const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink,btlink }) => 
           </h3>
         </div>
         <div className="p-2">
-          <h1 className=" text-white w-full text-[30px] font-bold font-['Mona Sans'] leading-[40px]">
+          <h1 className="w-full text-white text-[30px] font-bold font-['Mona Sans'] leading-[40px] ">
             {headingText}
           </h1>
         </div>
@@ -32,17 +39,21 @@ const Box4 = ({ smheadingText, headingText, ptext, bttext, imglink,btlink }) => 
           </p>
         </div>
 
-        
-          <div className="p-2 w-fit">
-            <div className="flex flex-row justify-start whitespace-nowrap items-center px-8 py-2 gap-2 bg-white rounded-full cursor-pointer">
-              <button className="text-black" onClick={openModal}>{bttext}</button>
-              <IoArrowForwardCircleOutline className="text-black bg-white rounded-full h-6 w-6" />
-            </div>
+        <div className="p-2 w-fit">
+          <div className="flex flex-row justify-start whitespace-nowrap items-center px-8 py-2 gap-2 bg-white rounded-full cursor-pointer">
+            <button className="text-black" onClick={openModal}>
+              {bttext}
+            </button>
+            <IoArrowForwardCircleOutline className="text-black bg-white rounded-full h-6 w-6" />
           </div>
-        
+        </div>
       </div>
       <div className="flex justify-end items-end w-full">
-        <img src={imglink} alt="image" className="h-full w-full p-1 pr-0 pb-0 lg:w-[90%] xl:w-[75%] rounded-xl" />
+        <img
+          src={imglink}
+          alt="image"
+          className="h-full w-full p-1 pr-0 pb-0 lg:w-[90%] xl:w-[75%] rounded-xl"
+        />
       </div>
     </div>
   );
