@@ -37,14 +37,11 @@ import AskSophiaCommunity from "./pages/My-Life-Hub-pages/AskSophiaCommunity";
 import TeamFamilySharing from "./pages/My-Life-Hub-pages/TeamFamilySharing";
 import UserAnalyticsDashboard from "./pages/My-Life-Hub-pages/UserAnalyticsDashboard";
 import YourLifestyleManagerChatbot from "./pages/My-Life-Hub-pages/YourLifestyleManagerChatbot";
-import Chat from "./pages/ChatPages/Chat";
-
+import ChatDashboard from "./pages/ChatAdmin/ChatDashboard";
 
 function App() {
-
   return (
     <>
-    
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -96,11 +93,12 @@ function App() {
               path="your-lifestyle-manager-chatbot"
               element={<YourLifestyleManagerChatbot />}
             />
-
             <Route
-              path="chat"
-              element={<Chat />}
+              path="chat-dashboard"
+              element={<ChatDashboard />}
             />
+
+
           </Route>
         </Routes>
       </Router>

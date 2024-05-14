@@ -9,18 +9,26 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 io.on('connection', (socket) => {
-  console.log('Client connected');
+  console.log('Client connected:', socket.id);
 
-  socket.on('disconnect', () => {
-    console.log('Client disconnected');
+  // Handle incoming messages from users
+  socket.on('user message', (message) => {
+    // Forward the message to all connected agents
+    io.emit('agent message', message);
   });
 
-  // Handle chat messages
-  socket.on('chat message', (message) => {
-    io.emit('chat message', message);
+  // Handle incoming messages from agents
+  socket.on('agent message', (message) => {
+    // Forward the message to all connected users
+    io.emit('user message', message);
+  });
+
+  socket.on('disconnect', () => {
+    console.log('Client disconnected:', socket.id);
   });
 });
 
-server.listen(4000, () => {
-  console.log('Server running on port 4000');
+const PORT = process.env.PORT || 4000;
+server.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });

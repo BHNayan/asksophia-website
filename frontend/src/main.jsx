@@ -6,6 +6,7 @@ import { ModalProvider } from "./Context/ModalProvider.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ThemeProvider, useTheme } from "./Context/ThemeContext.jsx";
+import ChatIndex from "./pages/ChatPages/ChatIndex.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ function Background() {
   return (
     <div className={theme === "light" ? "bg-white" : "bg-darkcolor"}>
       <App />
+      <ChatIndex/>
     </div>
   );
 }
