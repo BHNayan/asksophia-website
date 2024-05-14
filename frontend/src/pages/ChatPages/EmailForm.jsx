@@ -37,7 +37,7 @@ const EmailForm = (props) => {
       .put(
         "https://api.chatengine.io/chats/",
         {
-          usernames: [email, "BH Nayan"],
+          usernames: [email],
           title: "New Chat",
           is_direct_chat: true,
         },
