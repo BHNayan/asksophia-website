@@ -32,13 +32,15 @@ const EmailForm = (props) => {
       });
   }
 
-
-
   function getOrCreateChat(callback) {
     axios
       .put(
         "https://api.chatengine.io/chats/",
-        { usernames: [email,"BH Nayan"], title: "New Chat", is_direct_chat: true },
+        {
+          usernames: [email, "BH Nayan"],
+          title: "New Chat",
+          is_direct_chat: true,
+        },
         {
           headers: {
             "Project-ID": project_id,
@@ -136,6 +138,12 @@ const EmailForm = (props) => {
             onChange={(e) => setEmail(e.target.value)}
             style={styles.emailInput}
           />
+          <button
+            type="submit"
+            className="bg-primary border-2 border-white px-4 py-2 rounded-full text-white"
+          >
+            Start Chat Now
+          </button>
         </form>
 
         <div style={styles.bottomText}>
