@@ -359,7 +359,13 @@ const Header = () => {
           )}
         </div>
 
-        <div className="hidden xl:flex justify-center items-center w-full bg-gradient-to-r from-[#3639b4] to-[#191b83] p-3 rounded-3xl">
+        <div
+          className={`hidden xl:flex justify-center items-center w-full p-3 rounded-3xl ${
+            theme === "light"
+              ? " bg-gradient-to-r from-[#3639b4] to-[#191b83] text-white"
+              : "bg-darkcolor text-white shadow-lg border border-white "
+          }`}
+        >
           <div className="w-full hidden xl:flex px-8 bg-white bg-opacity-10 backdrop-blur-lg rounded-full justify-center items-center whitespace-nowrap">
             <ul className="menu menu-horizontal menu-sm ">
               <MainNavbar />

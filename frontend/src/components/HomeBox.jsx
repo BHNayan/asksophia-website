@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
-import { useModal } from '../Context/ModalProvider';
+import { useModal } from "../Context/ModalProvider";
 import { Link } from "react-router-dom";
-
+import { useTheme } from "../Context/ThemeContext";
 
 const listworkflows = [
   {
@@ -162,13 +162,21 @@ const HomeBox = () => {
 
     return () => clearInterval(intervalId);
   }, []);
+  const { theme, toggleTheme } = useTheme();
   return (
+    
     <>
-      <div className="w-full p-4 bg-gradient-to-r from-[#3639b4] to-[#191b83] mb-2 xl:-mt-[20px]  flex flex-col justify-center items-center gap-2 md:gap-4">
-        <div className="flex flex-row justify-center items-center gap-2 border rounded-full bg-white bg-opacity-10 px-4 py-1">
-         {/* <button className="text-white text-base font-bold font-['Plus Jakarta Sans'] rounded-full px-3 py-2 bg-gradient-to-r from-sky-400 to-sky-600  justify-center items-center gap-2.5 ">
+      <div
+        className={`w-full p-4 mb-2 flex flex-col justify-center items-center gap-2 md:gap-4 ${
+          theme === "light"
+            ? " bg-gradient-to-r from-[#3639b4] to-[#191b83] text-white xl:-mt-[20px]"
+            : "bg-darkcolor text-white shadow-lg border border-white rounded-3xl "
+        }`}
+      >
+        <div className="flex flex-row justify-center items-center gap-2 border rounded-full bg-white bg-opacity-10 px-4 py-1 mt-4 md:mt-10">
+          {/* <button className="text-white text-base font-bold font-['Plus Jakarta Sans'] rounded-full px-3 py-2 bg-gradient-to-r from-sky-400 to-sky-600  justify-center items-center gap-2.5 ">
             AI Guide
-          </button> */ }
+          </button> */}
           <h1 className="text-white text-base font-medium font-['Plus Jakarta Sans']">
             Welcome to AskSophia
           </h1>
@@ -216,7 +224,7 @@ const HomeBox = () => {
             <BsArrowRight className="text-black h-6 w-6 rounded-full bg-white p-1" />
           </button>
         </div>
-        
+
         <div className="w-full  flex justify-center items-center">
           <img src="./images/img-box-home.png" className="w-full md:w-[80%] " />
         </div>
@@ -229,9 +237,7 @@ const HomeBox = () => {
             className="p-2 gap-2 text-orange-200 text-[14px] md:text-[20px] font-medium font-['Mona Sans'] w-full whitespace-nowrap inline-flex items-center"
           >
             <img src="./images/Star3-img.png" className="bg-black" />
-            <Link to={workflow.wlink}>
-            {workflow.name}
-            </Link>
+            <Link to={workflow.wlink}>{workflow.name}</Link>
           </button>
         ))}
       </div>

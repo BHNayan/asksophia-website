@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { styles } from './Styles.js'
 
 const Avatar = props => {

@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import { dark, light } from "@mui/material/styles/createPalette";
 import keepPreset from "keep-react/preset";
 
 export default {
