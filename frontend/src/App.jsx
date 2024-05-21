@@ -93,12 +93,7 @@ function App() {
               path="your-lifestyle-manager-chatbot"
               element={<YourLifestyleManagerChatbot />}
             />
-            <Route
-              path="chat-dashboard"
-              element={<ChatDashboard />}
-            />
-
-
+            <Route path="chat-dashboard" element={<ChatDashboard />} />
           </Route>
         </Routes>
       </Router>

@@ -24,7 +24,7 @@ function Background() {
   return (
     <div className={theme === "light" ? "bg-white" : "bg-darkcolor"}>
       <App />
-      <ChatIndex/>
+      <ChatIndex />
     </div>
   );
 }
